@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+
+  <mods:titleInfo usage="primary">
+
+    <mods:title>January 1, 1870 - December 1, 1871</mods:title>
+
+  </mods:titleInfo>
+  <mods:name type="personal">
+    <mods:namePart type="family">Reeves</mods:namePart>
+    <mods:namePart type="given">Dexter, Jr.</mods:namePart>
+    <mods:displayForm>Reeves, Dexter, Jr.</mods:displayForm>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+      <mods:roleTerm type="text" authority="marcrelator">Author</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name authority="naf" type="corporate">
+    <mods:namePart>Boston College</mods:namePart>
+    <mods:namePart>John J. Burns Library</mods:namePart>
+    <mods:displayForm>Boston College. John J. Burns Library</mods:displayForm>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+      <mods:roleTerm type="text" authority="marcrelator">Owner</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre authority="gmgpc" displayLabel="general">Manuscripts</mods:genre>
+
+  <mods:originInfo>
+    <mods:dateCreated>1869-1905</mods:dateCreated>
+    <mods:dateCreated encoding="w3cdtf" point="start" keyDate="yes">1869</mods:dateCreated>
+    <mods:dateCreated encoding="w3cdtf" point="end">1905</mods:dateCreated>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+    <mods:languageTerm type="text" authority="iso639-2b">English</mods:languageTerm>
+  </mods:language>
+
+  <mods:physicalDescription>
+    <mods:form authority="marcform">electronic</mods:form>
+    <mods:internetMediaType>image/tiff</mods:internetMediaType>
+    <mods:internetMediaType>image/jpeg</mods:internetMediaType>
+    <mods:extent unit="level/digital surrogates">1 item (252 digital surrogates)</mods:extent>
+    <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+  </mods:physicalDescription>
+  <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials
+    are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user
+    must assume full responsibility for any use of the materials, including but not limited to, infringement of
+    copyright and publication rights of reproduced materials. Any materials used for academic research or
+    otherwise should be fully credited with the source. The original authors may retain copyright to the
+    materials.
+  </mods:accessCondition>
+  <mods:relatedItem type="host">
+    <mods:titleInfo usage="primary">
+      <mods:title>Reeves family diaries</mods:title>
+    </mods:titleInfo>
+    <mods:originInfo>
+      <mods:dateCreated>1869-1905</mods:dateCreated>
+      <mods:dateCreated encoding="w3cdtf" point="start" keyDate="yes">1869</mods:dateCreated>
+      <mods:dateCreated encoding="w3cdtf" point="end">1905</mods:dateCreated>
+    </mods:originInfo>
+    <mods:identifier type="accession number">MS.2012.003</mods:identifier>
+    <mods:location>
+      <mods:url displayLabel="Reeves family diaries">http://hdl.handle.net/2345.2/MS2012-003</mods:url>
+    </mods:location>
+  </mods:relatedItem>
+
+
+  <mods:extension>
+    <localCollectionName>MS2012003</localCollectionName>
+  </mods:extension>
+  <mods:recordInfo>
+    <mods:recordContentSource>Boston College</mods:recordContentSource>
+    <mods:recordOrigin>Boston College/ArchiveSpace Batch DAO</mods:recordOrigin>
+    <mods:languageOfCataloging>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+    </mods:languageOfCataloging>
+    <mods:descriptionStandard authority="marcdescription">dacs</mods:descriptionStandard>
+  </mods:recordInfo>
+
+</mods:mods>

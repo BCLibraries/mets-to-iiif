@@ -1,0 +1,3194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:ead="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd"
+           OBJID="http://hdl.handle.net/2345.2/MS2012_003_51529" LABEL="January 1, 1870 - December 1, 1871" TYPE="text"
+           PROFILE="ArchivesSpace">
+
+  <mets:metsHdr CREATEDATE="2017-07-11T11:00:12">
+
+    <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+
+      <mets:name>Archives and Manuscripts Department</mets:name>
+
+      <mets:note>http://www.bc.edu/burns</mets:note>
+
+      <mets:note>Produced by ArchivesSpace</mets:note>
+
+    </mets:agent>
+
+  </mets:metsHdr>
+
+  <mets:dmdSec ID="dm1695">
+
+    <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+
+      <mets:xmlData>
+
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+
+          <mods:titleInfo usage="primary">
+
+            <mods:title>January 1, 1870 - December 1, 1871</mods:title>
+
+          </mods:titleInfo>
+          <mods:name type="personal">
+            <mods:namePart type="family">Reeves</mods:namePart>
+            <mods:namePart type="given">Dexter, Jr.</mods:namePart>
+            <mods:displayForm>Reeves, Dexter, Jr.</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+              <mods:roleTerm type="text" authority="marcrelator">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name authority="naf" type="corporate">
+            <mods:namePart>Boston College</mods:namePart>
+            <mods:namePart>John J. Burns Library</mods:namePart>
+            <mods:displayForm>Boston College. John J. Burns Library</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+              <mods:roleTerm type="text" authority="marcrelator">Owner</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="gmgpc" displayLabel="general">Manuscripts</mods:genre>
+
+          <mods:originInfo>
+            <mods:dateCreated>1869-1905</mods:dateCreated>
+            <mods:dateCreated encoding="w3cdtf" point="start" keyDate="yes">1869</mods:dateCreated>
+            <mods:dateCreated encoding="w3cdtf" point="end">1905</mods:dateCreated>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+            <mods:languageTerm type="text" authority="iso639-2b">English</mods:languageTerm>
+          </mods:language>
+
+          <mods:physicalDescription>
+            <mods:form authority="marcform">electronic</mods:form>
+            <mods:internetMediaType>image/tiff</mods:internetMediaType>
+            <mods:internetMediaType>image/jpeg</mods:internetMediaType>
+            <mods:extent unit="level/digital surrogates">1 item (252 digital surrogates)</mods:extent>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials
+            are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user
+            must assume full responsibility for any use of the materials, including but not limited to, infringement of
+            copyright and publication rights of reproduced materials. Any materials used for academic research or
+            otherwise should be fully credited with the source. The original authors may retain copyright to the
+            materials.
+          </mods:accessCondition>
+          <mods:relatedItem type="host">
+            <mods:titleInfo usage="primary">
+              <mods:title>Reeves family diaries</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:dateCreated>1869-1905</mods:dateCreated>
+              <mods:dateCreated encoding="w3cdtf" point="start" keyDate="yes">1869</mods:dateCreated>
+              <mods:dateCreated encoding="w3cdtf" point="end">1905</mods:dateCreated>
+            </mods:originInfo>
+            <mods:identifier type="accession number">MS.2012.003</mods:identifier>
+            <mods:location>
+              <mods:url displayLabel="Reeves family diaries">http://hdl.handle.net/2345.2/MS2012-003</mods:url>
+            </mods:location>
+          </mods:relatedItem>
+
+
+          <mods:extension>
+            <localCollectionName>MS2012003</localCollectionName>
+          </mods:extension>
+          <mods:recordInfo>
+            <mods:recordContentSource>Boston College</mods:recordContentSource>
+            <mods:recordOrigin>Boston College/ArchiveSpace Batch DAO</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+            <mods:descriptionStandard authority="marcdescription">dacs</mods:descriptionStandard>
+          </mods:recordInfo>
+
+        </mods:mods>
+
+      </mets:xmlData>
+
+    </mets:mdWrap>
+
+  </mets:dmdSec>
+
+  <mets:amdSec>
+    <mets:digiprovMD ID="dp01">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="preservation_md">
+        <mets:xmlData>
+          <premis xmlns="info:lc/xmlns/premis-v2" version="2.1"
+                  xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-1.xsd">
+            <object xsi:type="file">
+              <objectIdentifier>
+                <objectIdentifierType>handle</objectIdentifierType>
+                <objectIdentifierValue>http://hdl.handle.net/2345.2/MS2012_003_51529</objectIdentifierValue>
+              </objectIdentifier>
+              <preservationLevel>
+                <preservationLevelValue/>
+              </preservationLevel>
+              <objectCharacteristics>
+                <compositionLevel>0</compositionLevel>
+                <fixity>
+                  <messageDigestAlgorithm/>
+                  <messageDigest/>
+                </fixity>
+                <format>
+                  <formatRegistry>
+                    <formatRegistryName/>
+                    <formatRegistryKey/>
+                  </formatRegistry>
+                </format>
+              </objectCharacteristics>
+            </object>
+          </premis>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+
+    <mets:fileGrp USE="reference image">
+
+      <mets:file SEQ="1" MIMETYPE="image/jpeg" ID="FID15359" GROUPID="11775" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0000.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="2" MIMETYPE="image/jpeg" ID="FID15361" GROUPID="11776" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0001.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="3" MIMETYPE="image/jpeg" ID="FID15363" GROUPID="11777" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0002.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="4" MIMETYPE="image/jpeg" ID="FID15365" GROUPID="11778" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0003.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="5" MIMETYPE="image/jpeg" ID="FID15367" GROUPID="11779" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0004.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="6" MIMETYPE="image/jpeg" ID="FID15369" GROUPID="11780" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0005.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="7" MIMETYPE="image/jpeg" ID="FID15371" GROUPID="11781" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0006.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="8" MIMETYPE="image/jpeg" ID="FID15373" GROUPID="11782" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0007.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="9" MIMETYPE="image/jpeg" ID="FID15375" GROUPID="11783" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0008.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="10" MIMETYPE="image/jpeg" ID="FID15377" GROUPID="11784" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0009.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="11" MIMETYPE="image/jpeg" ID="FID15379" GROUPID="11785" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0010.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="12" MIMETYPE="image/jpeg" ID="FID15381" GROUPID="11786" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0011.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="13" MIMETYPE="image/jpeg" ID="FID15383" GROUPID="11787" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0012.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="14" MIMETYPE="image/jpeg" ID="FID15385" GROUPID="11788" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0013.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="15" MIMETYPE="image/jpeg" ID="FID15387" GROUPID="11789" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0014.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="16" MIMETYPE="image/jpeg" ID="FID15389" GROUPID="11790" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0015.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="17" MIMETYPE="image/jpeg" ID="FID15391" GROUPID="11791" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0016.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="18" MIMETYPE="image/jpeg" ID="FID15393" GROUPID="11792" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0017.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="19" MIMETYPE="image/jpeg" ID="FID15395" GROUPID="11793" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0018.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="20" MIMETYPE="image/jpeg" ID="FID15397" GROUPID="11794" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0019.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="21" MIMETYPE="image/jpeg" ID="FID15399" GROUPID="11795" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0020.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="22" MIMETYPE="image/jpeg" ID="FID15401" GROUPID="11796" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0021.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="23" MIMETYPE="image/jpeg" ID="FID15403" GROUPID="11797" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0022.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="24" MIMETYPE="image/jpeg" ID="FID15405" GROUPID="11798" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0023.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="25" MIMETYPE="image/jpeg" ID="FID15407" GROUPID="11799" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0024.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="26" MIMETYPE="image/jpeg" ID="FID15409" GROUPID="11800" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0025.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="27" MIMETYPE="image/jpeg" ID="FID15411" GROUPID="11801" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0026.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="28" MIMETYPE="image/jpeg" ID="FID15413" GROUPID="11802" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0027.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="29" MIMETYPE="image/jpeg" ID="FID15415" GROUPID="11803" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0028.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="30" MIMETYPE="image/jpeg" ID="FID15417" GROUPID="11804" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0029.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="31" MIMETYPE="image/jpeg" ID="FID15419" GROUPID="11805" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0030.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="32" MIMETYPE="image/jpeg" ID="FID15421" GROUPID="11806" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0031.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="33" MIMETYPE="image/jpeg" ID="FID15423" GROUPID="11807" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0032.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="34" MIMETYPE="image/jpeg" ID="FID15425" GROUPID="11808" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0033.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="35" MIMETYPE="image/jpeg" ID="FID15427" GROUPID="11809" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0034.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="36" MIMETYPE="image/jpeg" ID="FID15429" GROUPID="11810" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0035.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="37" MIMETYPE="image/jpeg" ID="FID15431" GROUPID="11811" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0036.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="38" MIMETYPE="image/jpeg" ID="FID15433" GROUPID="11812" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0037.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="39" MIMETYPE="image/jpeg" ID="FID15435" GROUPID="11813" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0038.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="40" MIMETYPE="image/jpeg" ID="FID15437" GROUPID="11814" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0039.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="41" MIMETYPE="image/jpeg" ID="FID15439" GROUPID="11815" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0040.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="42" MIMETYPE="image/jpeg" ID="FID15441" GROUPID="11816" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0041.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="43" MIMETYPE="image/jpeg" ID="FID15443" GROUPID="11817" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0042.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="44" MIMETYPE="image/jpeg" ID="FID15445" GROUPID="11818" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0043.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="45" MIMETYPE="image/jpeg" ID="FID15447" GROUPID="11819" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0044.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="46" MIMETYPE="image/jpeg" ID="FID15449" GROUPID="11820" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0045.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="47" MIMETYPE="image/jpeg" ID="FID15451" GROUPID="11821" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0046.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="48" MIMETYPE="image/jpeg" ID="FID15453" GROUPID="11822" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0047.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="49" MIMETYPE="image/jpeg" ID="FID15455" GROUPID="11823" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0048.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="50" MIMETYPE="image/jpeg" ID="FID15457" GROUPID="11824" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0049.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="51" MIMETYPE="image/jpeg" ID="FID15459" GROUPID="11825" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0050.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="52" MIMETYPE="image/jpeg" ID="FID15461" GROUPID="11826" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0051.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="53" MIMETYPE="image/jpeg" ID="FID15463" GROUPID="11827" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0052.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="54" MIMETYPE="image/jpeg" ID="FID15465" GROUPID="11828" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0053.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="55" MIMETYPE="image/jpeg" ID="FID15467" GROUPID="11829" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0054.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="56" MIMETYPE="image/jpeg" ID="FID15469" GROUPID="11830" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0055.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="57" MIMETYPE="image/jpeg" ID="FID15471" GROUPID="11831" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0056.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="58" MIMETYPE="image/jpeg" ID="FID15473" GROUPID="11832" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0057.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="59" MIMETYPE="image/jpeg" ID="FID15475" GROUPID="11833" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0058.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="60" MIMETYPE="image/jpeg" ID="FID15477" GROUPID="11834" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0059.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="61" MIMETYPE="image/jpeg" ID="FID15479" GROUPID="11835" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0060.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="62" MIMETYPE="image/jpeg" ID="FID15481" GROUPID="11836" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0061.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="63" MIMETYPE="image/jpeg" ID="FID15483" GROUPID="11837" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0062.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="64" MIMETYPE="image/jpeg" ID="FID15485" GROUPID="11838" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0063.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="65" MIMETYPE="image/jpeg" ID="FID15487" GROUPID="11839" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0064.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="66" MIMETYPE="image/jpeg" ID="FID15489" GROUPID="11840" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0065.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="67" MIMETYPE="image/jpeg" ID="FID15491" GROUPID="11841" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0066.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="68" MIMETYPE="image/jpeg" ID="FID15493" GROUPID="11842" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0067.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="69" MIMETYPE="image/jpeg" ID="FID15495" GROUPID="11843" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0068.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="70" MIMETYPE="image/jpeg" ID="FID15497" GROUPID="11844" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0069.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="71" MIMETYPE="image/jpeg" ID="FID15499" GROUPID="11845" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0070.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="72" MIMETYPE="image/jpeg" ID="FID15501" GROUPID="11846" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0071.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="73" MIMETYPE="image/jpeg" ID="FID15503" GROUPID="11847" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0072.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="74" MIMETYPE="image/jpeg" ID="FID15505" GROUPID="11848" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0073.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="75" MIMETYPE="image/jpeg" ID="FID15507" GROUPID="11849" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0074.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="76" MIMETYPE="image/jpeg" ID="FID15509" GROUPID="11850" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0075.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="77" MIMETYPE="image/jpeg" ID="FID15511" GROUPID="11851" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0076.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="78" MIMETYPE="image/jpeg" ID="FID15513" GROUPID="11852" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0077.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="79" MIMETYPE="image/jpeg" ID="FID15515" GROUPID="11853" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0078.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="80" MIMETYPE="image/jpeg" ID="FID15517" GROUPID="11854" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0079.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="81" MIMETYPE="image/jpeg" ID="FID15519" GROUPID="11855" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0080.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="82" MIMETYPE="image/jpeg" ID="FID15521" GROUPID="11856" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0081.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="83" MIMETYPE="image/jpeg" ID="FID15523" GROUPID="11857" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0082.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="84" MIMETYPE="image/jpeg" ID="FID15525" GROUPID="11858" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0083.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="85" MIMETYPE="image/jpeg" ID="FID15527" GROUPID="11859" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0084.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="86" MIMETYPE="image/jpeg" ID="FID15529" GROUPID="11860" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0085.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="87" MIMETYPE="image/jpeg" ID="FID15531" GROUPID="11861" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0086.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="88" MIMETYPE="image/jpeg" ID="FID15533" GROUPID="11862" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0087.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="89" MIMETYPE="image/jpeg" ID="FID15535" GROUPID="11863" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0088.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="90" MIMETYPE="image/jpeg" ID="FID15537" GROUPID="11864" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0089.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="91" MIMETYPE="image/jpeg" ID="FID15539" GROUPID="11865" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0090.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="92" MIMETYPE="image/jpeg" ID="FID15541" GROUPID="11866" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0091.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="93" MIMETYPE="image/jpeg" ID="FID15543" GROUPID="11867" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0092.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="94" MIMETYPE="image/jpeg" ID="FID15545" GROUPID="11868" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0093.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="95" MIMETYPE="image/jpeg" ID="FID15547" GROUPID="11869" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0094.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="96" MIMETYPE="image/jpeg" ID="FID15549" GROUPID="11870" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0095.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="97" MIMETYPE="image/jpeg" ID="FID15551" GROUPID="11871" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0096.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="98" MIMETYPE="image/jpeg" ID="FID15553" GROUPID="11872" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0097.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="99" MIMETYPE="image/jpeg" ID="FID15555" GROUPID="11873" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0098.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="100" MIMETYPE="image/jpeg" ID="FID15557" GROUPID="11874" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0099.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="101" MIMETYPE="image/jpeg" ID="FID15559" GROUPID="11875" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0100.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="102" MIMETYPE="image/jpeg" ID="FID15561" GROUPID="11876" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0101.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="103" MIMETYPE="image/jpeg" ID="FID15563" GROUPID="11877" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0102.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="104" MIMETYPE="image/jpeg" ID="FID15565" GROUPID="11878" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0103.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="105" MIMETYPE="image/jpeg" ID="FID15567" GROUPID="11879" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0104.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="106" MIMETYPE="image/jpeg" ID="FID15569" GROUPID="11880" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0105.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="107" MIMETYPE="image/jpeg" ID="FID15571" GROUPID="11881" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0106.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="108" MIMETYPE="image/jpeg" ID="FID15573" GROUPID="11882" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0107.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="109" MIMETYPE="image/jpeg" ID="FID15575" GROUPID="11883" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0108.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="110" MIMETYPE="image/jpeg" ID="FID15577" GROUPID="11884" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0109.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="111" MIMETYPE="image/jpeg" ID="FID15579" GROUPID="11885" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0110.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="112" MIMETYPE="image/jpeg" ID="FID15581" GROUPID="11886" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0111.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="113" MIMETYPE="image/jpeg" ID="FID15583" GROUPID="11887" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0112.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="114" MIMETYPE="image/jpeg" ID="FID15585" GROUPID="11888" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0113.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="115" MIMETYPE="image/jpeg" ID="FID15587" GROUPID="11889" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0114.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="116" MIMETYPE="image/jpeg" ID="FID15589" GROUPID="11890" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0115.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="117" MIMETYPE="image/jpeg" ID="FID15591" GROUPID="11891" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0116.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="118" MIMETYPE="image/jpeg" ID="FID15593" GROUPID="11892" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0117.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="119" MIMETYPE="image/jpeg" ID="FID15595" GROUPID="11893" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0118.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="120" MIMETYPE="image/jpeg" ID="FID15597" GROUPID="11894" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0119.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="121" MIMETYPE="image/jpeg" ID="FID15599" GROUPID="11895" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0120.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="122" MIMETYPE="image/jpeg" ID="FID15601" GROUPID="11896" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0121.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="123" MIMETYPE="image/jpeg" ID="FID15603" GROUPID="11897" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0122.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="124" MIMETYPE="image/jpeg" ID="FID15605" GROUPID="11898" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0123.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="125" MIMETYPE="image/jpeg" ID="FID15607" GROUPID="11899" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0124.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="126" MIMETYPE="image/jpeg" ID="FID15609" GROUPID="11900" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0125.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="127" MIMETYPE="image/jpeg" ID="FID15611" GROUPID="11901" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0126.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="128" MIMETYPE="image/jpeg" ID="FID15613" GROUPID="11902" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0127.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="129" MIMETYPE="image/jpeg" ID="FID15615" GROUPID="11903" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0128.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="130" MIMETYPE="image/jpeg" ID="FID15617" GROUPID="11904" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0129.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="131" MIMETYPE="image/jpeg" ID="FID15619" GROUPID="11905" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0130.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="132" MIMETYPE="image/jpeg" ID="FID15621" GROUPID="11906" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0131.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="133" MIMETYPE="image/jpeg" ID="FID15623" GROUPID="11907" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0132.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="134" MIMETYPE="image/jpeg" ID="FID15625" GROUPID="11908" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0133.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="135" MIMETYPE="image/jpeg" ID="FID15627" GROUPID="11909" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0134.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="136" MIMETYPE="image/jpeg" ID="FID15629" GROUPID="11910" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0135.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="137" MIMETYPE="image/jpeg" ID="FID15631" GROUPID="11911" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0136.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="138" MIMETYPE="image/jpeg" ID="FID15633" GROUPID="11912" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0137.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="139" MIMETYPE="image/jpeg" ID="FID15635" GROUPID="11913" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0138.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="140" MIMETYPE="image/jpeg" ID="FID15637" GROUPID="11914" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0139.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="141" MIMETYPE="image/jpeg" ID="FID15639" GROUPID="11915" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0140.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="142" MIMETYPE="image/jpeg" ID="FID15641" GROUPID="11916" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0141.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="143" MIMETYPE="image/jpeg" ID="FID15643" GROUPID="11917" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0142.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="144" MIMETYPE="image/jpeg" ID="FID15645" GROUPID="11918" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0143.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="145" MIMETYPE="image/jpeg" ID="FID15647" GROUPID="11919" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0144.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="146" MIMETYPE="image/jpeg" ID="FID15649" GROUPID="11920" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0145.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="147" MIMETYPE="image/jpeg" ID="FID15651" GROUPID="11921" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0146.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="148" MIMETYPE="image/jpeg" ID="FID15653" GROUPID="11922" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0147.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="149" MIMETYPE="image/jpeg" ID="FID15655" GROUPID="11923" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0148.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="150" MIMETYPE="image/jpeg" ID="FID15657" GROUPID="11924" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0149.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="151" MIMETYPE="image/jpeg" ID="FID15659" GROUPID="11925" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0150.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="152" MIMETYPE="image/jpeg" ID="FID15661" GROUPID="11926" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0151.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="153" MIMETYPE="image/jpeg" ID="FID15663" GROUPID="11927" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0152.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="154" MIMETYPE="image/jpeg" ID="FID15665" GROUPID="11928" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0153.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="155" MIMETYPE="image/jpeg" ID="FID15667" GROUPID="11929" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0154.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="156" MIMETYPE="image/jpeg" ID="FID15669" GROUPID="11930" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0155.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="157" MIMETYPE="image/jpeg" ID="FID15671" GROUPID="11931" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0156.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="158" MIMETYPE="image/jpeg" ID="FID15673" GROUPID="11932" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0157.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="159" MIMETYPE="image/jpeg" ID="FID15675" GROUPID="11933" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0158.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="160" MIMETYPE="image/jpeg" ID="FID15677" GROUPID="11934" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0159.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="161" MIMETYPE="image/jpeg" ID="FID15679" GROUPID="11935" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0160.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="162" MIMETYPE="image/jpeg" ID="FID15681" GROUPID="11936" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0161.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="163" MIMETYPE="image/jpeg" ID="FID15683" GROUPID="11937" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0162.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="164" MIMETYPE="image/jpeg" ID="FID15685" GROUPID="11938" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0163.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="165" MIMETYPE="image/jpeg" ID="FID15687" GROUPID="11939" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0164.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="166" MIMETYPE="image/jpeg" ID="FID15689" GROUPID="11940" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0165.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="167" MIMETYPE="image/jpeg" ID="FID15691" GROUPID="11941" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0166.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="168" MIMETYPE="image/jpeg" ID="FID15693" GROUPID="11942" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0167.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="169" MIMETYPE="image/jpeg" ID="FID15695" GROUPID="11943" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0168.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="170" MIMETYPE="image/jpeg" ID="FID15697" GROUPID="11944" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0169.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="171" MIMETYPE="image/jpeg" ID="FID15699" GROUPID="11945" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0170.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="172" MIMETYPE="image/jpeg" ID="FID15701" GROUPID="11946" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0171.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="173" MIMETYPE="image/jpeg" ID="FID15703" GROUPID="11947" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0172.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="174" MIMETYPE="image/jpeg" ID="FID15705" GROUPID="11948" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0173.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="175" MIMETYPE="image/jpeg" ID="FID15707" GROUPID="11949" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0174.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="176" MIMETYPE="image/jpeg" ID="FID15709" GROUPID="11950" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0175.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="177" MIMETYPE="image/jpeg" ID="FID15711" GROUPID="11951" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0176.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="178" MIMETYPE="image/jpeg" ID="FID15713" GROUPID="11952" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0177.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="179" MIMETYPE="image/jpeg" ID="FID15715" GROUPID="11953" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0178.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="180" MIMETYPE="image/jpeg" ID="FID15717" GROUPID="11954" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0179.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="181" MIMETYPE="image/jpeg" ID="FID15719" GROUPID="11955" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0180.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="182" MIMETYPE="image/jpeg" ID="FID15721" GROUPID="11956" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0181.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="183" MIMETYPE="image/jpeg" ID="FID15723" GROUPID="11957" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0182.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="184" MIMETYPE="image/jpeg" ID="FID15725" GROUPID="11958" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0183.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="185" MIMETYPE="image/jpeg" ID="FID15727" GROUPID="11959" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0184.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="186" MIMETYPE="image/jpeg" ID="FID15729" GROUPID="11960" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0185.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="187" MIMETYPE="image/jpeg" ID="FID15731" GROUPID="11961" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0186.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="188" MIMETYPE="image/jpeg" ID="FID15733" GROUPID="11962" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0187.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="189" MIMETYPE="image/jpeg" ID="FID15735" GROUPID="11963" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0188.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="190" MIMETYPE="image/jpeg" ID="FID15737" GROUPID="11964" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0189.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="191" MIMETYPE="image/jpeg" ID="FID15739" GROUPID="11965" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0190.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="192" MIMETYPE="image/jpeg" ID="FID15741" GROUPID="11966" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0191.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="193" MIMETYPE="image/jpeg" ID="FID15743" GROUPID="11967" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0192.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="194" MIMETYPE="image/jpeg" ID="FID15745" GROUPID="11968" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0193.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="195" MIMETYPE="image/jpeg" ID="FID15747" GROUPID="11969" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0194.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="196" MIMETYPE="image/jpeg" ID="FID15749" GROUPID="11970" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0195.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="197" MIMETYPE="image/jpeg" ID="FID15751" GROUPID="11971" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0196.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="198" MIMETYPE="image/jpeg" ID="FID15753" GROUPID="11972" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0197.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="199" MIMETYPE="image/jpeg" ID="FID15755" GROUPID="11973" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0198.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="200" MIMETYPE="image/jpeg" ID="FID15757" GROUPID="11974" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0199.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="201" MIMETYPE="image/jpeg" ID="FID15759" GROUPID="11975" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0200.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="202" MIMETYPE="image/jpeg" ID="FID15761" GROUPID="11976" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0201.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="203" MIMETYPE="image/jpeg" ID="FID15763" GROUPID="11977" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0202.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="204" MIMETYPE="image/jpeg" ID="FID15765" GROUPID="11978" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0203.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="205" MIMETYPE="image/jpeg" ID="FID15767" GROUPID="11979" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0204.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="206" MIMETYPE="image/jpeg" ID="FID15769" GROUPID="11980" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0205.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="207" MIMETYPE="image/jpeg" ID="FID15771" GROUPID="11981" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0206.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="208" MIMETYPE="image/jpeg" ID="FID15773" GROUPID="11982" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0207.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="209" MIMETYPE="image/jpeg" ID="FID15775" GROUPID="11983" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0208.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="210" MIMETYPE="image/jpeg" ID="FID15777" GROUPID="11984" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0209.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="211" MIMETYPE="image/jpeg" ID="FID15779" GROUPID="11985" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0210.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="212" MIMETYPE="image/jpeg" ID="FID15781" GROUPID="11986" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0211.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="213" MIMETYPE="image/jpeg" ID="FID15783" GROUPID="11987" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0212.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="214" MIMETYPE="image/jpeg" ID="FID15785" GROUPID="11988" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0213.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="215" MIMETYPE="image/jpeg" ID="FID15787" GROUPID="11989" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0214.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="216" MIMETYPE="image/jpeg" ID="FID15789" GROUPID="11990" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0215.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="217" MIMETYPE="image/jpeg" ID="FID15791" GROUPID="11991" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0216.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="218" MIMETYPE="image/jpeg" ID="FID15793" GROUPID="11992" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0217.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="219" MIMETYPE="image/jpeg" ID="FID15795" GROUPID="11993" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0218.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="220" MIMETYPE="image/jpeg" ID="FID15797" GROUPID="11994" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0219.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="221" MIMETYPE="image/jpeg" ID="FID15799" GROUPID="11995" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0220.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="222" MIMETYPE="image/jpeg" ID="FID15801" GROUPID="11996" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0221.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="223" MIMETYPE="image/jpeg" ID="FID15803" GROUPID="11997" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0222.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="224" MIMETYPE="image/jpeg" ID="FID15805" GROUPID="11998" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0223.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="225" MIMETYPE="image/jpeg" ID="FID15807" GROUPID="11999" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0224.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="226" MIMETYPE="image/jpeg" ID="FID15809" GROUPID="12000" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0225.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="227" MIMETYPE="image/jpeg" ID="FID15811" GROUPID="12001" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0226.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="228" MIMETYPE="image/jpeg" ID="FID15813" GROUPID="12002" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0227.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="229" MIMETYPE="image/jpeg" ID="FID15815" GROUPID="12003" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0228.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="230" MIMETYPE="image/jpeg" ID="FID15817" GROUPID="12004" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0229.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="231" MIMETYPE="image/jpeg" ID="FID15819" GROUPID="12005" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0230.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="232" MIMETYPE="image/jpeg" ID="FID15821" GROUPID="12006" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0231.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="233" MIMETYPE="image/jpeg" ID="FID15823" GROUPID="12007" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0232.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="234" MIMETYPE="image/jpeg" ID="FID15825" GROUPID="12008" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0233.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="235" MIMETYPE="image/jpeg" ID="FID15827" GROUPID="12009" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0234.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="236" MIMETYPE="image/jpeg" ID="FID15829" GROUPID="12010" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0235.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="237" MIMETYPE="image/jpeg" ID="FID15831" GROUPID="12011" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0236.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="238" MIMETYPE="image/jpeg" ID="FID15833" GROUPID="12012" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0237.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="239" MIMETYPE="image/jpeg" ID="FID15835" GROUPID="12013" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0238.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="240" MIMETYPE="image/jpeg" ID="FID15837" GROUPID="12014" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0239.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="241" MIMETYPE="image/jpeg" ID="FID15839" GROUPID="12015" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0240.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="242" MIMETYPE="image/jpeg" ID="FID15841" GROUPID="12016" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0241.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="243" MIMETYPE="image/jpeg" ID="FID15843" GROUPID="12017" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0242.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="244" MIMETYPE="image/jpeg" ID="FID15845" GROUPID="12018" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0243.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="245" MIMETYPE="image/jpeg" ID="FID15847" GROUPID="12019" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0244.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="246" MIMETYPE="image/jpeg" ID="FID15849" GROUPID="12020" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0245.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="247" MIMETYPE="image/jpeg" ID="FID15851" GROUPID="12021" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0246.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="248" MIMETYPE="image/jpeg" ID="FID15853" GROUPID="12022" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0247.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="249" MIMETYPE="image/jpeg" ID="FID15855" GROUPID="12023" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0248.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="250" MIMETYPE="image/jpeg" ID="FID15857" GROUPID="12024" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0249.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="251" MIMETYPE="image/jpeg" ID="FID15859" GROUPID="12025" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0250.jpg"/>
+      </mets:file>
+
+      <mets:file SEQ="252" MIMETYPE="image/jpeg" ID="FID15861" GROUPID="12026" USE="reference image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0251.jpg"/>
+      </mets:file>
+
+    </mets:fileGrp>
+
+    <mets:fileGrp USE="archive image">
+
+      <mets:file SEQ="1" MIMETYPE="image/jpeg" ID="FID15360" GROUPID="11775" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0000.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="2" MIMETYPE="image/jpeg" ID="FID15362" GROUPID="11776" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0001.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="3" MIMETYPE="image/jpeg" ID="FID15364" GROUPID="11777" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0002.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="4" MIMETYPE="image/jpeg" ID="FID15366" GROUPID="11778" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0003.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="5" MIMETYPE="image/jpeg" ID="FID15368" GROUPID="11779" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0004.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="6" MIMETYPE="image/jpeg" ID="FID15370" GROUPID="11780" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0005.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="7" MIMETYPE="image/jpeg" ID="FID15372" GROUPID="11781" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0006.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="8" MIMETYPE="image/jpeg" ID="FID15374" GROUPID="11782" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0007.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="9" MIMETYPE="image/jpeg" ID="FID15376" GROUPID="11783" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0008.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="10" MIMETYPE="image/jpeg" ID="FID15378" GROUPID="11784" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0009.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="11" MIMETYPE="image/jpeg" ID="FID15380" GROUPID="11785" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0010.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="12" MIMETYPE="image/jpeg" ID="FID15382" GROUPID="11786" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0011.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="13" MIMETYPE="image/jpeg" ID="FID15384" GROUPID="11787" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0012.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="14" MIMETYPE="image/jpeg" ID="FID15386" GROUPID="11788" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0013.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="15" MIMETYPE="image/jpeg" ID="FID15388" GROUPID="11789" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0014.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="16" MIMETYPE="image/jpeg" ID="FID15390" GROUPID="11790" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0015.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="17" MIMETYPE="image/jpeg" ID="FID15392" GROUPID="11791" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0016.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="18" MIMETYPE="image/jpeg" ID="FID15394" GROUPID="11792" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0017.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="19" MIMETYPE="image/jpeg" ID="FID15396" GROUPID="11793" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0018.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="20" MIMETYPE="image/jpeg" ID="FID15398" GROUPID="11794" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0019.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="21" MIMETYPE="image/jpeg" ID="FID15400" GROUPID="11795" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0020.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="22" MIMETYPE="image/jpeg" ID="FID15402" GROUPID="11796" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0021.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="23" MIMETYPE="image/jpeg" ID="FID15404" GROUPID="11797" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0022.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="24" MIMETYPE="image/jpeg" ID="FID15406" GROUPID="11798" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0023.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="25" MIMETYPE="image/jpeg" ID="FID15408" GROUPID="11799" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0024.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="26" MIMETYPE="image/jpeg" ID="FID15410" GROUPID="11800" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0025.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="27" MIMETYPE="image/jpeg" ID="FID15412" GROUPID="11801" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0026.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="28" MIMETYPE="image/jpeg" ID="FID15414" GROUPID="11802" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0027.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="29" MIMETYPE="image/jpeg" ID="FID15416" GROUPID="11803" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0028.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="30" MIMETYPE="image/jpeg" ID="FID15418" GROUPID="11804" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0029.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="31" MIMETYPE="image/jpeg" ID="FID15420" GROUPID="11805" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0030.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="32" MIMETYPE="image/jpeg" ID="FID15422" GROUPID="11806" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0031.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="33" MIMETYPE="image/jpeg" ID="FID15424" GROUPID="11807" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0032.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="34" MIMETYPE="image/jpeg" ID="FID15426" GROUPID="11808" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0033.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="35" MIMETYPE="image/jpeg" ID="FID15428" GROUPID="11809" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0034.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="36" MIMETYPE="image/jpeg" ID="FID15430" GROUPID="11810" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0035.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="37" MIMETYPE="image/jpeg" ID="FID15432" GROUPID="11811" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0036.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="38" MIMETYPE="image/jpeg" ID="FID15434" GROUPID="11812" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0037.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="39" MIMETYPE="image/jpeg" ID="FID15436" GROUPID="11813" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0038.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="40" MIMETYPE="image/jpeg" ID="FID15438" GROUPID="11814" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0039.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="41" MIMETYPE="image/jpeg" ID="FID15440" GROUPID="11815" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0040.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="42" MIMETYPE="image/jpeg" ID="FID15442" GROUPID="11816" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0041.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="43" MIMETYPE="image/jpeg" ID="FID15444" GROUPID="11817" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0042.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="44" MIMETYPE="image/jpeg" ID="FID15446" GROUPID="11818" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0043.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="45" MIMETYPE="image/jpeg" ID="FID15448" GROUPID="11819" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0044.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="46" MIMETYPE="image/jpeg" ID="FID15450" GROUPID="11820" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0045.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="47" MIMETYPE="image/jpeg" ID="FID15452" GROUPID="11821" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0046.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="48" MIMETYPE="image/jpeg" ID="FID15454" GROUPID="11822" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0047.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="49" MIMETYPE="image/jpeg" ID="FID15456" GROUPID="11823" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0048.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="50" MIMETYPE="image/jpeg" ID="FID15458" GROUPID="11824" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0049.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="51" MIMETYPE="image/jpeg" ID="FID15460" GROUPID="11825" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0050.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="52" MIMETYPE="image/jpeg" ID="FID15462" GROUPID="11826" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0051.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="53" MIMETYPE="image/jpeg" ID="FID15464" GROUPID="11827" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0052.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="54" MIMETYPE="image/jpeg" ID="FID15466" GROUPID="11828" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0053.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="55" MIMETYPE="image/jpeg" ID="FID15468" GROUPID="11829" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0054.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="56" MIMETYPE="image/jpeg" ID="FID15470" GROUPID="11830" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0055.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="57" MIMETYPE="image/jpeg" ID="FID15472" GROUPID="11831" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0056.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="58" MIMETYPE="image/jpeg" ID="FID15474" GROUPID="11832" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0057.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="59" MIMETYPE="image/jpeg" ID="FID15476" GROUPID="11833" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0058.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="60" MIMETYPE="image/jpeg" ID="FID15478" GROUPID="11834" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0059.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="61" MIMETYPE="image/jpeg" ID="FID15480" GROUPID="11835" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0060.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="62" MIMETYPE="image/jpeg" ID="FID15482" GROUPID="11836" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0061.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="63" MIMETYPE="image/jpeg" ID="FID15484" GROUPID="11837" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0062.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="64" MIMETYPE="image/jpeg" ID="FID15486" GROUPID="11838" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0063.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="65" MIMETYPE="image/jpeg" ID="FID15488" GROUPID="11839" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0064.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="66" MIMETYPE="image/jpeg" ID="FID15490" GROUPID="11840" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0065.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="67" MIMETYPE="image/jpeg" ID="FID15492" GROUPID="11841" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0066.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="68" MIMETYPE="image/jpeg" ID="FID15494" GROUPID="11842" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0067.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="69" MIMETYPE="image/jpeg" ID="FID15496" GROUPID="11843" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0068.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="70" MIMETYPE="image/jpeg" ID="FID15498" GROUPID="11844" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0069.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="71" MIMETYPE="image/jpeg" ID="FID15500" GROUPID="11845" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0070.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="72" MIMETYPE="image/jpeg" ID="FID15502" GROUPID="11846" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0071.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="73" MIMETYPE="image/jpeg" ID="FID15504" GROUPID="11847" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0072.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="74" MIMETYPE="image/jpeg" ID="FID15506" GROUPID="11848" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0073.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="75" MIMETYPE="image/jpeg" ID="FID15508" GROUPID="11849" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0074.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="76" MIMETYPE="image/jpeg" ID="FID15510" GROUPID="11850" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0075.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="77" MIMETYPE="image/jpeg" ID="FID15512" GROUPID="11851" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0076.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="78" MIMETYPE="image/jpeg" ID="FID15514" GROUPID="11852" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0077.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="79" MIMETYPE="image/jpeg" ID="FID15516" GROUPID="11853" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0078.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="80" MIMETYPE="image/jpeg" ID="FID15518" GROUPID="11854" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0079.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="81" MIMETYPE="image/jpeg" ID="FID15520" GROUPID="11855" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0080.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="82" MIMETYPE="image/jpeg" ID="FID15522" GROUPID="11856" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0081.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="83" MIMETYPE="image/jpeg" ID="FID15524" GROUPID="11857" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0082.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="84" MIMETYPE="image/jpeg" ID="FID15526" GROUPID="11858" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0083.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="85" MIMETYPE="image/jpeg" ID="FID15528" GROUPID="11859" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0084.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="86" MIMETYPE="image/jpeg" ID="FID15530" GROUPID="11860" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0085.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="87" MIMETYPE="image/jpeg" ID="FID15532" GROUPID="11861" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0086.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="88" MIMETYPE="image/jpeg" ID="FID15534" GROUPID="11862" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0087.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="89" MIMETYPE="image/jpeg" ID="FID15536" GROUPID="11863" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0088.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="90" MIMETYPE="image/jpeg" ID="FID15538" GROUPID="11864" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0089.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="91" MIMETYPE="image/jpeg" ID="FID15540" GROUPID="11865" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0090.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="92" MIMETYPE="image/jpeg" ID="FID15542" GROUPID="11866" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0091.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="93" MIMETYPE="image/jpeg" ID="FID15544" GROUPID="11867" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0092.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="94" MIMETYPE="image/jpeg" ID="FID15546" GROUPID="11868" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0093.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="95" MIMETYPE="image/jpeg" ID="FID15548" GROUPID="11869" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0094.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="96" MIMETYPE="image/jpeg" ID="FID15550" GROUPID="11870" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0095.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="97" MIMETYPE="image/jpeg" ID="FID15552" GROUPID="11871" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0096.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="98" MIMETYPE="image/jpeg" ID="FID15554" GROUPID="11872" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0097.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="99" MIMETYPE="image/jpeg" ID="FID15556" GROUPID="11873" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0098.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="100" MIMETYPE="image/jpeg" ID="FID15558" GROUPID="11874" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0099.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="101" MIMETYPE="image/jpeg" ID="FID15560" GROUPID="11875" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0100.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="102" MIMETYPE="image/jpeg" ID="FID15562" GROUPID="11876" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0101.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="103" MIMETYPE="image/jpeg" ID="FID15564" GROUPID="11877" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0102.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="104" MIMETYPE="image/jpeg" ID="FID15566" GROUPID="11878" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0103.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="105" MIMETYPE="image/jpeg" ID="FID15568" GROUPID="11879" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0104.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="106" MIMETYPE="image/jpeg" ID="FID15570" GROUPID="11880" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0105.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="107" MIMETYPE="image/jpeg" ID="FID15572" GROUPID="11881" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0106.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="108" MIMETYPE="image/jpeg" ID="FID15574" GROUPID="11882" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0107.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="109" MIMETYPE="image/jpeg" ID="FID15576" GROUPID="11883" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0108.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="110" MIMETYPE="image/jpeg" ID="FID15578" GROUPID="11884" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0109.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="111" MIMETYPE="image/jpeg" ID="FID15580" GROUPID="11885" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0110.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="112" MIMETYPE="image/jpeg" ID="FID15582" GROUPID="11886" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0111.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="113" MIMETYPE="image/jpeg" ID="FID15584" GROUPID="11887" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0112.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="114" MIMETYPE="image/jpeg" ID="FID15586" GROUPID="11888" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0113.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="115" MIMETYPE="image/jpeg" ID="FID15588" GROUPID="11889" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0114.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="116" MIMETYPE="image/jpeg" ID="FID15590" GROUPID="11890" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0115.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="117" MIMETYPE="image/jpeg" ID="FID15592" GROUPID="11891" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0116.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="118" MIMETYPE="image/jpeg" ID="FID15594" GROUPID="11892" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0117.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="119" MIMETYPE="image/jpeg" ID="FID15596" GROUPID="11893" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0118.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="120" MIMETYPE="image/jpeg" ID="FID15598" GROUPID="11894" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0119.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="121" MIMETYPE="image/jpeg" ID="FID15600" GROUPID="11895" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0120.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="122" MIMETYPE="image/jpeg" ID="FID15602" GROUPID="11896" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0121.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="123" MIMETYPE="image/jpeg" ID="FID15604" GROUPID="11897" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0122.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="124" MIMETYPE="image/jpeg" ID="FID15606" GROUPID="11898" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0123.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="125" MIMETYPE="image/jpeg" ID="FID15608" GROUPID="11899" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0124.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="126" MIMETYPE="image/jpeg" ID="FID15610" GROUPID="11900" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0125.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="127" MIMETYPE="image/jpeg" ID="FID15612" GROUPID="11901" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0126.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="128" MIMETYPE="image/jpeg" ID="FID15614" GROUPID="11902" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0127.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="129" MIMETYPE="image/jpeg" ID="FID15616" GROUPID="11903" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0128.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="130" MIMETYPE="image/jpeg" ID="FID15618" GROUPID="11904" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0129.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="131" MIMETYPE="image/jpeg" ID="FID15620" GROUPID="11905" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0130.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="132" MIMETYPE="image/jpeg" ID="FID15622" GROUPID="11906" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0131.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="133" MIMETYPE="image/jpeg" ID="FID15624" GROUPID="11907" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0132.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="134" MIMETYPE="image/jpeg" ID="FID15626" GROUPID="11908" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0133.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="135" MIMETYPE="image/jpeg" ID="FID15628" GROUPID="11909" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0134.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="136" MIMETYPE="image/jpeg" ID="FID15630" GROUPID="11910" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0135.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="137" MIMETYPE="image/jpeg" ID="FID15632" GROUPID="11911" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0136.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="138" MIMETYPE="image/jpeg" ID="FID15634" GROUPID="11912" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0137.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="139" MIMETYPE="image/jpeg" ID="FID15636" GROUPID="11913" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0138.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="140" MIMETYPE="image/jpeg" ID="FID15638" GROUPID="11914" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0139.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="141" MIMETYPE="image/jpeg" ID="FID15640" GROUPID="11915" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0140.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="142" MIMETYPE="image/jpeg" ID="FID15642" GROUPID="11916" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0141.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="143" MIMETYPE="image/jpeg" ID="FID15644" GROUPID="11917" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0142.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="144" MIMETYPE="image/jpeg" ID="FID15646" GROUPID="11918" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0143.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="145" MIMETYPE="image/jpeg" ID="FID15648" GROUPID="11919" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0144.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="146" MIMETYPE="image/jpeg" ID="FID15650" GROUPID="11920" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0145.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="147" MIMETYPE="image/jpeg" ID="FID15652" GROUPID="11921" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0146.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="148" MIMETYPE="image/jpeg" ID="FID15654" GROUPID="11922" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0147.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="149" MIMETYPE="image/jpeg" ID="FID15656" GROUPID="11923" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0148.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="150" MIMETYPE="image/jpeg" ID="FID15658" GROUPID="11924" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0149.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="151" MIMETYPE="image/jpeg" ID="FID15660" GROUPID="11925" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0150.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="152" MIMETYPE="image/jpeg" ID="FID15662" GROUPID="11926" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0151.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="153" MIMETYPE="image/jpeg" ID="FID15664" GROUPID="11927" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0152.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="154" MIMETYPE="image/jpeg" ID="FID15666" GROUPID="11928" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0153.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="155" MIMETYPE="image/jpeg" ID="FID15668" GROUPID="11929" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0154.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="156" MIMETYPE="image/jpeg" ID="FID15670" GROUPID="11930" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0155.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="157" MIMETYPE="image/jpeg" ID="FID15672" GROUPID="11931" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0156.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="158" MIMETYPE="image/jpeg" ID="FID15674" GROUPID="11932" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0157.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="159" MIMETYPE="image/jpeg" ID="FID15676" GROUPID="11933" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0158.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="160" MIMETYPE="image/jpeg" ID="FID15678" GROUPID="11934" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0159.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="161" MIMETYPE="image/jpeg" ID="FID15680" GROUPID="11935" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0160.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="162" MIMETYPE="image/jpeg" ID="FID15682" GROUPID="11936" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0161.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="163" MIMETYPE="image/jpeg" ID="FID15684" GROUPID="11937" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0162.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="164" MIMETYPE="image/jpeg" ID="FID15686" GROUPID="11938" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0163.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="165" MIMETYPE="image/jpeg" ID="FID15688" GROUPID="11939" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0164.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="166" MIMETYPE="image/jpeg" ID="FID15690" GROUPID="11940" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0165.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="167" MIMETYPE="image/jpeg" ID="FID15692" GROUPID="11941" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0166.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="168" MIMETYPE="image/jpeg" ID="FID15694" GROUPID="11942" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0167.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="169" MIMETYPE="image/jpeg" ID="FID15696" GROUPID="11943" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0168.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="170" MIMETYPE="image/jpeg" ID="FID15698" GROUPID="11944" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0169.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="171" MIMETYPE="image/jpeg" ID="FID15700" GROUPID="11945" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0170.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="172" MIMETYPE="image/jpeg" ID="FID15702" GROUPID="11946" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0171.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="173" MIMETYPE="image/jpeg" ID="FID15704" GROUPID="11947" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0172.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="174" MIMETYPE="image/jpeg" ID="FID15706" GROUPID="11948" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0173.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="175" MIMETYPE="image/jpeg" ID="FID15708" GROUPID="11949" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0174.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="176" MIMETYPE="image/jpeg" ID="FID15710" GROUPID="11950" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0175.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="177" MIMETYPE="image/jpeg" ID="FID15712" GROUPID="11951" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0176.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="178" MIMETYPE="image/jpeg" ID="FID15714" GROUPID="11952" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0177.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="179" MIMETYPE="image/jpeg" ID="FID15716" GROUPID="11953" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0178.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="180" MIMETYPE="image/jpeg" ID="FID15718" GROUPID="11954" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0179.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="181" MIMETYPE="image/jpeg" ID="FID15720" GROUPID="11955" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0180.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="182" MIMETYPE="image/jpeg" ID="FID15722" GROUPID="11956" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0181.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="183" MIMETYPE="image/jpeg" ID="FID15724" GROUPID="11957" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0182.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="184" MIMETYPE="image/jpeg" ID="FID15726" GROUPID="11958" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0183.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="185" MIMETYPE="image/jpeg" ID="FID15728" GROUPID="11959" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0184.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="186" MIMETYPE="image/jpeg" ID="FID15730" GROUPID="11960" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0185.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="187" MIMETYPE="image/jpeg" ID="FID15732" GROUPID="11961" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0186.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="188" MIMETYPE="image/jpeg" ID="FID15734" GROUPID="11962" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0187.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="189" MIMETYPE="image/jpeg" ID="FID15736" GROUPID="11963" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0188.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="190" MIMETYPE="image/jpeg" ID="FID15738" GROUPID="11964" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0189.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="191" MIMETYPE="image/jpeg" ID="FID15740" GROUPID="11965" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0190.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="192" MIMETYPE="image/jpeg" ID="FID15742" GROUPID="11966" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0191.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="193" MIMETYPE="image/jpeg" ID="FID15744" GROUPID="11967" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0192.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="194" MIMETYPE="image/jpeg" ID="FID15746" GROUPID="11968" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0193.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="195" MIMETYPE="image/jpeg" ID="FID15748" GROUPID="11969" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0194.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="196" MIMETYPE="image/jpeg" ID="FID15750" GROUPID="11970" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0195.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="197" MIMETYPE="image/jpeg" ID="FID15752" GROUPID="11971" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0196.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="198" MIMETYPE="image/jpeg" ID="FID15754" GROUPID="11972" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0197.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="199" MIMETYPE="image/jpeg" ID="FID15756" GROUPID="11973" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0198.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="200" MIMETYPE="image/jpeg" ID="FID15758" GROUPID="11974" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0199.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="201" MIMETYPE="image/jpeg" ID="FID15760" GROUPID="11975" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0200.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="202" MIMETYPE="image/jpeg" ID="FID15762" GROUPID="11976" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0201.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="203" MIMETYPE="image/jpeg" ID="FID15764" GROUPID="11977" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0202.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="204" MIMETYPE="image/jpeg" ID="FID15766" GROUPID="11978" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0203.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="205" MIMETYPE="image/jpeg" ID="FID15768" GROUPID="11979" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0204.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="206" MIMETYPE="image/jpeg" ID="FID15770" GROUPID="11980" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0205.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="207" MIMETYPE="image/jpeg" ID="FID15772" GROUPID="11981" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0206.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="208" MIMETYPE="image/jpeg" ID="FID15774" GROUPID="11982" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0207.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="209" MIMETYPE="image/jpeg" ID="FID15776" GROUPID="11983" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0208.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="210" MIMETYPE="image/jpeg" ID="FID15778" GROUPID="11984" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0209.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="211" MIMETYPE="image/jpeg" ID="FID15780" GROUPID="11985" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0210.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="212" MIMETYPE="image/jpeg" ID="FID15782" GROUPID="11986" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0211.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="213" MIMETYPE="image/jpeg" ID="FID15784" GROUPID="11987" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0212.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="214" MIMETYPE="image/jpeg" ID="FID15786" GROUPID="11988" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0213.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="215" MIMETYPE="image/jpeg" ID="FID15788" GROUPID="11989" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0214.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="216" MIMETYPE="image/jpeg" ID="FID15790" GROUPID="11990" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0215.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="217" MIMETYPE="image/jpeg" ID="FID15792" GROUPID="11991" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0216.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="218" MIMETYPE="image/jpeg" ID="FID15794" GROUPID="11992" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0217.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="219" MIMETYPE="image/jpeg" ID="FID15796" GROUPID="11993" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0218.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="220" MIMETYPE="image/jpeg" ID="FID15798" GROUPID="11994" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0219.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="221" MIMETYPE="image/jpeg" ID="FID15800" GROUPID="11995" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0220.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="222" MIMETYPE="image/jpeg" ID="FID15802" GROUPID="11996" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0221.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="223" MIMETYPE="image/jpeg" ID="FID15804" GROUPID="11997" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0222.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="224" MIMETYPE="image/jpeg" ID="FID15806" GROUPID="11998" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0223.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="225" MIMETYPE="image/jpeg" ID="FID15808" GROUPID="11999" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0224.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="226" MIMETYPE="image/jpeg" ID="FID15810" GROUPID="12000" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0225.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="227" MIMETYPE="image/jpeg" ID="FID15812" GROUPID="12001" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0226.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="228" MIMETYPE="image/jpeg" ID="FID15814" GROUPID="12002" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0227.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="229" MIMETYPE="image/jpeg" ID="FID15816" GROUPID="12003" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0228.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="230" MIMETYPE="image/jpeg" ID="FID15818" GROUPID="12004" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0229.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="231" MIMETYPE="image/jpeg" ID="FID15820" GROUPID="12005" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0230.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="232" MIMETYPE="image/jpeg" ID="FID15822" GROUPID="12006" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0231.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="233" MIMETYPE="image/jpeg" ID="FID15824" GROUPID="12007" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0232.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="234" MIMETYPE="image/jpeg" ID="FID15826" GROUPID="12008" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0233.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="235" MIMETYPE="image/jpeg" ID="FID15828" GROUPID="12009" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0234.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="236" MIMETYPE="image/jpeg" ID="FID15830" GROUPID="12010" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0235.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="237" MIMETYPE="image/jpeg" ID="FID15832" GROUPID="12011" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0236.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="238" MIMETYPE="image/jpeg" ID="FID15834" GROUPID="12012" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0237.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="239" MIMETYPE="image/jpeg" ID="FID15836" GROUPID="12013" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0238.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="240" MIMETYPE="image/jpeg" ID="FID15838" GROUPID="12014" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0239.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="241" MIMETYPE="image/jpeg" ID="FID15840" GROUPID="12015" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0240.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="242" MIMETYPE="image/jpeg" ID="FID15842" GROUPID="12016" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0241.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="243" MIMETYPE="image/jpeg" ID="FID15844" GROUPID="12017" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0242.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="244" MIMETYPE="image/jpeg" ID="FID15846" GROUPID="12018" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0243.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="245" MIMETYPE="image/jpeg" ID="FID15848" GROUPID="12019" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0244.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="246" MIMETYPE="image/jpeg" ID="FID15850" GROUPID="12020" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0245.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="247" MIMETYPE="image/jpeg" ID="FID15852" GROUPID="12021" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0246.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="248" MIMETYPE="image/jpeg" ID="FID15854" GROUPID="12022" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0247.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="249" MIMETYPE="image/jpeg" ID="FID15856" GROUPID="12023" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0248.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="250" MIMETYPE="image/jpeg" ID="FID15858" GROUPID="12024" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0249.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="251" MIMETYPE="image/jpeg" ID="FID15860" GROUPID="12025" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0250.tif"/>
+      </mets:file>
+
+      <mets:file SEQ="252" MIMETYPE="image/jpeg" ID="FID15862" GROUPID="12026" USE="archive image">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file://streams/MS2012_003_51529_0251.tif"/>
+      </mets:file>
+
+    </mets:fileGrp>
+
+  </mets:fileSec>
+
+
+  <mets:structMap TYPE="physical">
+    <mets:div ORDER="1" LABEL="MS.2012.003" DMDID="dm1695" TYPE="DAO">
+      <mets:div ORDER="1" LABEL="MS2012_003_51529_0000" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15359"/>
+        <mets:fptr FILEID="FID15360"/>
+      </mets:div>
+      <mets:div ORDER="2" LABEL="MS2012_003_51529_0001" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15361"/>
+        <mets:fptr FILEID="FID15362"/>
+      </mets:div>
+      <mets:div ORDER="3" LABEL="MS2012_003_51529_0002" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15363"/>
+        <mets:fptr FILEID="FID15364"/>
+      </mets:div>
+      <mets:div ORDER="4" LABEL="MS2012_003_51529_0003" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15365"/>
+        <mets:fptr FILEID="FID15366"/>
+      </mets:div>
+      <mets:div ORDER="5" LABEL="MS2012_003_51529_0004" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15367"/>
+        <mets:fptr FILEID="FID15368"/>
+      </mets:div>
+      <mets:div ORDER="6" LABEL="MS2012_003_51529_0005" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15369"/>
+        <mets:fptr FILEID="FID15370"/>
+      </mets:div>
+      <mets:div ORDER="7" LABEL="MS2012_003_51529_0006" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15371"/>
+        <mets:fptr FILEID="FID15372"/>
+      </mets:div>
+      <mets:div ORDER="8" LABEL="MS2012_003_51529_0007" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15373"/>
+        <mets:fptr FILEID="FID15374"/>
+      </mets:div>
+      <mets:div ORDER="9" LABEL="MS2012_003_51529_0008" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15375"/>
+        <mets:fptr FILEID="FID15376"/>
+      </mets:div>
+      <mets:div ORDER="10" LABEL="MS2012_003_51529_0009" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15377"/>
+        <mets:fptr FILEID="FID15378"/>
+      </mets:div>
+      <mets:div ORDER="11" LABEL="MS2012_003_51529_0010" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15379"/>
+        <mets:fptr FILEID="FID15380"/>
+      </mets:div>
+      <mets:div ORDER="12" LABEL="MS2012_003_51529_0011" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15381"/>
+        <mets:fptr FILEID="FID15382"/>
+      </mets:div>
+      <mets:div ORDER="13" LABEL="MS2012_003_51529_0012" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15383"/>
+        <mets:fptr FILEID="FID15384"/>
+      </mets:div>
+      <mets:div ORDER="14" LABEL="MS2012_003_51529_0013" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15385"/>
+        <mets:fptr FILEID="FID15386"/>
+      </mets:div>
+      <mets:div ORDER="15" LABEL="MS2012_003_51529_0014" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15387"/>
+        <mets:fptr FILEID="FID15388"/>
+      </mets:div>
+      <mets:div ORDER="16" LABEL="MS2012_003_51529_0015" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15389"/>
+        <mets:fptr FILEID="FID15390"/>
+      </mets:div>
+      <mets:div ORDER="17" LABEL="MS2012_003_51529_0016" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15391"/>
+        <mets:fptr FILEID="FID15392"/>
+      </mets:div>
+      <mets:div ORDER="18" LABEL="MS2012_003_51529_0017" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15393"/>
+        <mets:fptr FILEID="FID15394"/>
+      </mets:div>
+      <mets:div ORDER="19" LABEL="MS2012_003_51529_0018" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15395"/>
+        <mets:fptr FILEID="FID15396"/>
+      </mets:div>
+      <mets:div ORDER="20" LABEL="MS2012_003_51529_0019" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15397"/>
+        <mets:fptr FILEID="FID15398"/>
+      </mets:div>
+      <mets:div ORDER="21" LABEL="MS2012_003_51529_0020" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15399"/>
+        <mets:fptr FILEID="FID15400"/>
+      </mets:div>
+      <mets:div ORDER="22" LABEL="MS2012_003_51529_0021" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15401"/>
+        <mets:fptr FILEID="FID15402"/>
+      </mets:div>
+      <mets:div ORDER="23" LABEL="MS2012_003_51529_0022" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15403"/>
+        <mets:fptr FILEID="FID15404"/>
+      </mets:div>
+      <mets:div ORDER="24" LABEL="MS2012_003_51529_0023" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15405"/>
+        <mets:fptr FILEID="FID15406"/>
+      </mets:div>
+      <mets:div ORDER="25" LABEL="MS2012_003_51529_0024" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15407"/>
+        <mets:fptr FILEID="FID15408"/>
+      </mets:div>
+      <mets:div ORDER="26" LABEL="MS2012_003_51529_0025" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15409"/>
+        <mets:fptr FILEID="FID15410"/>
+      </mets:div>
+      <mets:div ORDER="27" LABEL="MS2012_003_51529_0026" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15411"/>
+        <mets:fptr FILEID="FID15412"/>
+      </mets:div>
+      <mets:div ORDER="28" LABEL="MS2012_003_51529_0027" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15413"/>
+        <mets:fptr FILEID="FID15414"/>
+      </mets:div>
+      <mets:div ORDER="29" LABEL="MS2012_003_51529_0028" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15415"/>
+        <mets:fptr FILEID="FID15416"/>
+      </mets:div>
+      <mets:div ORDER="30" LABEL="MS2012_003_51529_0029" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15417"/>
+        <mets:fptr FILEID="FID15418"/>
+      </mets:div>
+      <mets:div ORDER="31" LABEL="MS2012_003_51529_0030" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15419"/>
+        <mets:fptr FILEID="FID15420"/>
+      </mets:div>
+      <mets:div ORDER="32" LABEL="MS2012_003_51529_0031" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15421"/>
+        <mets:fptr FILEID="FID15422"/>
+      </mets:div>
+      <mets:div ORDER="33" LABEL="MS2012_003_51529_0032" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15423"/>
+        <mets:fptr FILEID="FID15424"/>
+      </mets:div>
+      <mets:div ORDER="34" LABEL="MS2012_003_51529_0033" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15425"/>
+        <mets:fptr FILEID="FID15426"/>
+      </mets:div>
+      <mets:div ORDER="35" LABEL="MS2012_003_51529_0034" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15427"/>
+        <mets:fptr FILEID="FID15428"/>
+      </mets:div>
+      <mets:div ORDER="36" LABEL="MS2012_003_51529_0035" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15429"/>
+        <mets:fptr FILEID="FID15430"/>
+      </mets:div>
+      <mets:div ORDER="37" LABEL="MS2012_003_51529_0036" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15431"/>
+        <mets:fptr FILEID="FID15432"/>
+      </mets:div>
+      <mets:div ORDER="38" LABEL="MS2012_003_51529_0037" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15433"/>
+        <mets:fptr FILEID="FID15434"/>
+      </mets:div>
+      <mets:div ORDER="39" LABEL="MS2012_003_51529_0038" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15435"/>
+        <mets:fptr FILEID="FID15436"/>
+      </mets:div>
+      <mets:div ORDER="40" LABEL="MS2012_003_51529_0039" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15437"/>
+        <mets:fptr FILEID="FID15438"/>
+      </mets:div>
+      <mets:div ORDER="41" LABEL="MS2012_003_51529_0040" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15439"/>
+        <mets:fptr FILEID="FID15440"/>
+      </mets:div>
+      <mets:div ORDER="42" LABEL="MS2012_003_51529_0041" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15441"/>
+        <mets:fptr FILEID="FID15442"/>
+      </mets:div>
+      <mets:div ORDER="43" LABEL="MS2012_003_51529_0042" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15443"/>
+        <mets:fptr FILEID="FID15444"/>
+      </mets:div>
+      <mets:div ORDER="44" LABEL="MS2012_003_51529_0043" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15445"/>
+        <mets:fptr FILEID="FID15446"/>
+      </mets:div>
+      <mets:div ORDER="45" LABEL="MS2012_003_51529_0044" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15447"/>
+        <mets:fptr FILEID="FID15448"/>
+      </mets:div>
+      <mets:div ORDER="46" LABEL="MS2012_003_51529_0045" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15449"/>
+        <mets:fptr FILEID="FID15450"/>
+      </mets:div>
+      <mets:div ORDER="47" LABEL="MS2012_003_51529_0046" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15451"/>
+        <mets:fptr FILEID="FID15452"/>
+      </mets:div>
+      <mets:div ORDER="48" LABEL="MS2012_003_51529_0047" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15453"/>
+        <mets:fptr FILEID="FID15454"/>
+      </mets:div>
+      <mets:div ORDER="49" LABEL="MS2012_003_51529_0048" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15455"/>
+        <mets:fptr FILEID="FID15456"/>
+      </mets:div>
+      <mets:div ORDER="50" LABEL="MS2012_003_51529_0049" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15457"/>
+        <mets:fptr FILEID="FID15458"/>
+      </mets:div>
+      <mets:div ORDER="51" LABEL="MS2012_003_51529_0050" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15459"/>
+        <mets:fptr FILEID="FID15460"/>
+      </mets:div>
+      <mets:div ORDER="52" LABEL="MS2012_003_51529_0051" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15461"/>
+        <mets:fptr FILEID="FID15462"/>
+      </mets:div>
+      <mets:div ORDER="53" LABEL="MS2012_003_51529_0052" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15463"/>
+        <mets:fptr FILEID="FID15464"/>
+      </mets:div>
+      <mets:div ORDER="54" LABEL="MS2012_003_51529_0053" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15465"/>
+        <mets:fptr FILEID="FID15466"/>
+      </mets:div>
+      <mets:div ORDER="55" LABEL="MS2012_003_51529_0054" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15467"/>
+        <mets:fptr FILEID="FID15468"/>
+      </mets:div>
+      <mets:div ORDER="56" LABEL="MS2012_003_51529_0055" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15469"/>
+        <mets:fptr FILEID="FID15470"/>
+      </mets:div>
+      <mets:div ORDER="57" LABEL="MS2012_003_51529_0056" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15471"/>
+        <mets:fptr FILEID="FID15472"/>
+      </mets:div>
+      <mets:div ORDER="58" LABEL="MS2012_003_51529_0057" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15473"/>
+        <mets:fptr FILEID="FID15474"/>
+      </mets:div>
+      <mets:div ORDER="59" LABEL="MS2012_003_51529_0058" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15475"/>
+        <mets:fptr FILEID="FID15476"/>
+      </mets:div>
+      <mets:div ORDER="60" LABEL="MS2012_003_51529_0059" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15477"/>
+        <mets:fptr FILEID="FID15478"/>
+      </mets:div>
+      <mets:div ORDER="61" LABEL="MS2012_003_51529_0060" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15479"/>
+        <mets:fptr FILEID="FID15480"/>
+      </mets:div>
+      <mets:div ORDER="62" LABEL="MS2012_003_51529_0061" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15481"/>
+        <mets:fptr FILEID="FID15482"/>
+      </mets:div>
+      <mets:div ORDER="63" LABEL="MS2012_003_51529_0062" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15483"/>
+        <mets:fptr FILEID="FID15484"/>
+      </mets:div>
+      <mets:div ORDER="64" LABEL="MS2012_003_51529_0063" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15485"/>
+        <mets:fptr FILEID="FID15486"/>
+      </mets:div>
+      <mets:div ORDER="65" LABEL="MS2012_003_51529_0064" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15487"/>
+        <mets:fptr FILEID="FID15488"/>
+      </mets:div>
+      <mets:div ORDER="66" LABEL="MS2012_003_51529_0065" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15489"/>
+        <mets:fptr FILEID="FID15490"/>
+      </mets:div>
+      <mets:div ORDER="67" LABEL="MS2012_003_51529_0066" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15491"/>
+        <mets:fptr FILEID="FID15492"/>
+      </mets:div>
+      <mets:div ORDER="68" LABEL="MS2012_003_51529_0067" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15493"/>
+        <mets:fptr FILEID="FID15494"/>
+      </mets:div>
+      <mets:div ORDER="69" LABEL="MS2012_003_51529_0068" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15495"/>
+        <mets:fptr FILEID="FID15496"/>
+      </mets:div>
+      <mets:div ORDER="70" LABEL="MS2012_003_51529_0069" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15497"/>
+        <mets:fptr FILEID="FID15498"/>
+      </mets:div>
+      <mets:div ORDER="71" LABEL="MS2012_003_51529_0070" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15499"/>
+        <mets:fptr FILEID="FID15500"/>
+      </mets:div>
+      <mets:div ORDER="72" LABEL="MS2012_003_51529_0071" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15501"/>
+        <mets:fptr FILEID="FID15502"/>
+      </mets:div>
+      <mets:div ORDER="73" LABEL="MS2012_003_51529_0072" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15503"/>
+        <mets:fptr FILEID="FID15504"/>
+      </mets:div>
+      <mets:div ORDER="74" LABEL="MS2012_003_51529_0073" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15505"/>
+        <mets:fptr FILEID="FID15506"/>
+      </mets:div>
+      <mets:div ORDER="75" LABEL="MS2012_003_51529_0074" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15507"/>
+        <mets:fptr FILEID="FID15508"/>
+      </mets:div>
+      <mets:div ORDER="76" LABEL="MS2012_003_51529_0075" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15509"/>
+        <mets:fptr FILEID="FID15510"/>
+      </mets:div>
+      <mets:div ORDER="77" LABEL="MS2012_003_51529_0076" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15511"/>
+        <mets:fptr FILEID="FID15512"/>
+      </mets:div>
+      <mets:div ORDER="78" LABEL="MS2012_003_51529_0077" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15513"/>
+        <mets:fptr FILEID="FID15514"/>
+      </mets:div>
+      <mets:div ORDER="79" LABEL="MS2012_003_51529_0078" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15515"/>
+        <mets:fptr FILEID="FID15516"/>
+      </mets:div>
+      <mets:div ORDER="80" LABEL="MS2012_003_51529_0079" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15517"/>
+        <mets:fptr FILEID="FID15518"/>
+      </mets:div>
+      <mets:div ORDER="81" LABEL="MS2012_003_51529_0080" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15519"/>
+        <mets:fptr FILEID="FID15520"/>
+      </mets:div>
+      <mets:div ORDER="82" LABEL="MS2012_003_51529_0081" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15521"/>
+        <mets:fptr FILEID="FID15522"/>
+      </mets:div>
+      <mets:div ORDER="83" LABEL="MS2012_003_51529_0082" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15523"/>
+        <mets:fptr FILEID="FID15524"/>
+      </mets:div>
+      <mets:div ORDER="84" LABEL="MS2012_003_51529_0083" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15525"/>
+        <mets:fptr FILEID="FID15526"/>
+      </mets:div>
+      <mets:div ORDER="85" LABEL="MS2012_003_51529_0084" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15527"/>
+        <mets:fptr FILEID="FID15528"/>
+      </mets:div>
+      <mets:div ORDER="86" LABEL="MS2012_003_51529_0085" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15529"/>
+        <mets:fptr FILEID="FID15530"/>
+      </mets:div>
+      <mets:div ORDER="87" LABEL="MS2012_003_51529_0086" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15531"/>
+        <mets:fptr FILEID="FID15532"/>
+      </mets:div>
+      <mets:div ORDER="88" LABEL="MS2012_003_51529_0087" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15533"/>
+        <mets:fptr FILEID="FID15534"/>
+      </mets:div>
+      <mets:div ORDER="89" LABEL="MS2012_003_51529_0088" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15535"/>
+        <mets:fptr FILEID="FID15536"/>
+      </mets:div>
+      <mets:div ORDER="90" LABEL="MS2012_003_51529_0089" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15537"/>
+        <mets:fptr FILEID="FID15538"/>
+      </mets:div>
+      <mets:div ORDER="91" LABEL="MS2012_003_51529_0090" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15539"/>
+        <mets:fptr FILEID="FID15540"/>
+      </mets:div>
+      <mets:div ORDER="92" LABEL="MS2012_003_51529_0091" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15541"/>
+        <mets:fptr FILEID="FID15542"/>
+      </mets:div>
+      <mets:div ORDER="93" LABEL="MS2012_003_51529_0092" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15543"/>
+        <mets:fptr FILEID="FID15544"/>
+      </mets:div>
+      <mets:div ORDER="94" LABEL="MS2012_003_51529_0093" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15545"/>
+        <mets:fptr FILEID="FID15546"/>
+      </mets:div>
+      <mets:div ORDER="95" LABEL="MS2012_003_51529_0094" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15547"/>
+        <mets:fptr FILEID="FID15548"/>
+      </mets:div>
+      <mets:div ORDER="96" LABEL="MS2012_003_51529_0095" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15549"/>
+        <mets:fptr FILEID="FID15550"/>
+      </mets:div>
+      <mets:div ORDER="97" LABEL="MS2012_003_51529_0096" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15551"/>
+        <mets:fptr FILEID="FID15552"/>
+      </mets:div>
+      <mets:div ORDER="98" LABEL="MS2012_003_51529_0097" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15553"/>
+        <mets:fptr FILEID="FID15554"/>
+      </mets:div>
+      <mets:div ORDER="99" LABEL="MS2012_003_51529_0098" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15555"/>
+        <mets:fptr FILEID="FID15556"/>
+      </mets:div>
+      <mets:div ORDER="100" LABEL="MS2012_003_51529_0099" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15557"/>
+        <mets:fptr FILEID="FID15558"/>
+      </mets:div>
+      <mets:div ORDER="101" LABEL="MS2012_003_51529_0100" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15559"/>
+        <mets:fptr FILEID="FID15560"/>
+      </mets:div>
+      <mets:div ORDER="102" LABEL="MS2012_003_51529_0101" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15561"/>
+        <mets:fptr FILEID="FID15562"/>
+      </mets:div>
+      <mets:div ORDER="103" LABEL="MS2012_003_51529_0102" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15563"/>
+        <mets:fptr FILEID="FID15564"/>
+      </mets:div>
+      <mets:div ORDER="104" LABEL="MS2012_003_51529_0103" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15565"/>
+        <mets:fptr FILEID="FID15566"/>
+      </mets:div>
+      <mets:div ORDER="105" LABEL="MS2012_003_51529_0104" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15567"/>
+        <mets:fptr FILEID="FID15568"/>
+      </mets:div>
+      <mets:div ORDER="106" LABEL="MS2012_003_51529_0105" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15569"/>
+        <mets:fptr FILEID="FID15570"/>
+      </mets:div>
+      <mets:div ORDER="107" LABEL="MS2012_003_51529_0106" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15571"/>
+        <mets:fptr FILEID="FID15572"/>
+      </mets:div>
+      <mets:div ORDER="108" LABEL="MS2012_003_51529_0107" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15573"/>
+        <mets:fptr FILEID="FID15574"/>
+      </mets:div>
+      <mets:div ORDER="109" LABEL="MS2012_003_51529_0108" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15575"/>
+        <mets:fptr FILEID="FID15576"/>
+      </mets:div>
+      <mets:div ORDER="110" LABEL="MS2012_003_51529_0109" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15577"/>
+        <mets:fptr FILEID="FID15578"/>
+      </mets:div>
+      <mets:div ORDER="111" LABEL="MS2012_003_51529_0110" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15579"/>
+        <mets:fptr FILEID="FID15580"/>
+      </mets:div>
+      <mets:div ORDER="112" LABEL="MS2012_003_51529_0111" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15581"/>
+        <mets:fptr FILEID="FID15582"/>
+      </mets:div>
+      <mets:div ORDER="113" LABEL="MS2012_003_51529_0112" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15583"/>
+        <mets:fptr FILEID="FID15584"/>
+      </mets:div>
+      <mets:div ORDER="114" LABEL="MS2012_003_51529_0113" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15585"/>
+        <mets:fptr FILEID="FID15586"/>
+      </mets:div>
+      <mets:div ORDER="115" LABEL="MS2012_003_51529_0114" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15587"/>
+        <mets:fptr FILEID="FID15588"/>
+      </mets:div>
+      <mets:div ORDER="116" LABEL="MS2012_003_51529_0115" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15589"/>
+        <mets:fptr FILEID="FID15590"/>
+      </mets:div>
+      <mets:div ORDER="117" LABEL="MS2012_003_51529_0116" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15591"/>
+        <mets:fptr FILEID="FID15592"/>
+      </mets:div>
+      <mets:div ORDER="118" LABEL="MS2012_003_51529_0117" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15593"/>
+        <mets:fptr FILEID="FID15594"/>
+      </mets:div>
+      <mets:div ORDER="119" LABEL="MS2012_003_51529_0118" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15595"/>
+        <mets:fptr FILEID="FID15596"/>
+      </mets:div>
+      <mets:div ORDER="120" LABEL="MS2012_003_51529_0119" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15597"/>
+        <mets:fptr FILEID="FID15598"/>
+      </mets:div>
+      <mets:div ORDER="121" LABEL="MS2012_003_51529_0120" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15599"/>
+        <mets:fptr FILEID="FID15600"/>
+      </mets:div>
+      <mets:div ORDER="122" LABEL="MS2012_003_51529_0121" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15601"/>
+        <mets:fptr FILEID="FID15602"/>
+      </mets:div>
+      <mets:div ORDER="123" LABEL="MS2012_003_51529_0122" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15603"/>
+        <mets:fptr FILEID="FID15604"/>
+      </mets:div>
+      <mets:div ORDER="124" LABEL="MS2012_003_51529_0123" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15605"/>
+        <mets:fptr FILEID="FID15606"/>
+      </mets:div>
+      <mets:div ORDER="125" LABEL="MS2012_003_51529_0124" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15607"/>
+        <mets:fptr FILEID="FID15608"/>
+      </mets:div>
+      <mets:div ORDER="126" LABEL="MS2012_003_51529_0125" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15609"/>
+        <mets:fptr FILEID="FID15610"/>
+      </mets:div>
+      <mets:div ORDER="127" LABEL="MS2012_003_51529_0126" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15611"/>
+        <mets:fptr FILEID="FID15612"/>
+      </mets:div>
+      <mets:div ORDER="128" LABEL="MS2012_003_51529_0127" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15613"/>
+        <mets:fptr FILEID="FID15614"/>
+      </mets:div>
+      <mets:div ORDER="129" LABEL="MS2012_003_51529_0128" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15615"/>
+        <mets:fptr FILEID="FID15616"/>
+      </mets:div>
+      <mets:div ORDER="130" LABEL="MS2012_003_51529_0129" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15617"/>
+        <mets:fptr FILEID="FID15618"/>
+      </mets:div>
+      <mets:div ORDER="131" LABEL="MS2012_003_51529_0130" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15619"/>
+        <mets:fptr FILEID="FID15620"/>
+      </mets:div>
+      <mets:div ORDER="132" LABEL="MS2012_003_51529_0131" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15621"/>
+        <mets:fptr FILEID="FID15622"/>
+      </mets:div>
+      <mets:div ORDER="133" LABEL="MS2012_003_51529_0132" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15623"/>
+        <mets:fptr FILEID="FID15624"/>
+      </mets:div>
+      <mets:div ORDER="134" LABEL="MS2012_003_51529_0133" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15625"/>
+        <mets:fptr FILEID="FID15626"/>
+      </mets:div>
+      <mets:div ORDER="135" LABEL="MS2012_003_51529_0134" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15627"/>
+        <mets:fptr FILEID="FID15628"/>
+      </mets:div>
+      <mets:div ORDER="136" LABEL="MS2012_003_51529_0135" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15629"/>
+        <mets:fptr FILEID="FID15630"/>
+      </mets:div>
+      <mets:div ORDER="137" LABEL="MS2012_003_51529_0136" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15631"/>
+        <mets:fptr FILEID="FID15632"/>
+      </mets:div>
+      <mets:div ORDER="138" LABEL="MS2012_003_51529_0137" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15633"/>
+        <mets:fptr FILEID="FID15634"/>
+      </mets:div>
+      <mets:div ORDER="139" LABEL="MS2012_003_51529_0138" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15635"/>
+        <mets:fptr FILEID="FID15636"/>
+      </mets:div>
+      <mets:div ORDER="140" LABEL="MS2012_003_51529_0139" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15637"/>
+        <mets:fptr FILEID="FID15638"/>
+      </mets:div>
+      <mets:div ORDER="141" LABEL="MS2012_003_51529_0140" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15639"/>
+        <mets:fptr FILEID="FID15640"/>
+      </mets:div>
+      <mets:div ORDER="142" LABEL="MS2012_003_51529_0141" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15641"/>
+        <mets:fptr FILEID="FID15642"/>
+      </mets:div>
+      <mets:div ORDER="143" LABEL="MS2012_003_51529_0142" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15643"/>
+        <mets:fptr FILEID="FID15644"/>
+      </mets:div>
+      <mets:div ORDER="144" LABEL="MS2012_003_51529_0143" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15645"/>
+        <mets:fptr FILEID="FID15646"/>
+      </mets:div>
+      <mets:div ORDER="145" LABEL="MS2012_003_51529_0144" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15647"/>
+        <mets:fptr FILEID="FID15648"/>
+      </mets:div>
+      <mets:div ORDER="146" LABEL="MS2012_003_51529_0145" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15649"/>
+        <mets:fptr FILEID="FID15650"/>
+      </mets:div>
+      <mets:div ORDER="147" LABEL="MS2012_003_51529_0146" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15651"/>
+        <mets:fptr FILEID="FID15652"/>
+      </mets:div>
+      <mets:div ORDER="148" LABEL="MS2012_003_51529_0147" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15653"/>
+        <mets:fptr FILEID="FID15654"/>
+      </mets:div>
+      <mets:div ORDER="149" LABEL="MS2012_003_51529_0148" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15655"/>
+        <mets:fptr FILEID="FID15656"/>
+      </mets:div>
+      <mets:div ORDER="150" LABEL="MS2012_003_51529_0149" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15657"/>
+        <mets:fptr FILEID="FID15658"/>
+      </mets:div>
+      <mets:div ORDER="151" LABEL="MS2012_003_51529_0150" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15659"/>
+        <mets:fptr FILEID="FID15660"/>
+      </mets:div>
+      <mets:div ORDER="152" LABEL="MS2012_003_51529_0151" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15661"/>
+        <mets:fptr FILEID="FID15662"/>
+      </mets:div>
+      <mets:div ORDER="153" LABEL="MS2012_003_51529_0152" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15663"/>
+        <mets:fptr FILEID="FID15664"/>
+      </mets:div>
+      <mets:div ORDER="154" LABEL="MS2012_003_51529_0153" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15665"/>
+        <mets:fptr FILEID="FID15666"/>
+      </mets:div>
+      <mets:div ORDER="155" LABEL="MS2012_003_51529_0154" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15667"/>
+        <mets:fptr FILEID="FID15668"/>
+      </mets:div>
+      <mets:div ORDER="156" LABEL="MS2012_003_51529_0155" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15669"/>
+        <mets:fptr FILEID="FID15670"/>
+      </mets:div>
+      <mets:div ORDER="157" LABEL="MS2012_003_51529_0156" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15671"/>
+        <mets:fptr FILEID="FID15672"/>
+      </mets:div>
+      <mets:div ORDER="158" LABEL="MS2012_003_51529_0157" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15673"/>
+        <mets:fptr FILEID="FID15674"/>
+      </mets:div>
+      <mets:div ORDER="159" LABEL="MS2012_003_51529_0158" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15675"/>
+        <mets:fptr FILEID="FID15676"/>
+      </mets:div>
+      <mets:div ORDER="160" LABEL="MS2012_003_51529_0159" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15677"/>
+        <mets:fptr FILEID="FID15678"/>
+      </mets:div>
+      <mets:div ORDER="161" LABEL="MS2012_003_51529_0160" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15679"/>
+        <mets:fptr FILEID="FID15680"/>
+      </mets:div>
+      <mets:div ORDER="162" LABEL="MS2012_003_51529_0161" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15681"/>
+        <mets:fptr FILEID="FID15682"/>
+      </mets:div>
+      <mets:div ORDER="163" LABEL="MS2012_003_51529_0162" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15683"/>
+        <mets:fptr FILEID="FID15684"/>
+      </mets:div>
+      <mets:div ORDER="164" LABEL="MS2012_003_51529_0163" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15685"/>
+        <mets:fptr FILEID="FID15686"/>
+      </mets:div>
+      <mets:div ORDER="165" LABEL="MS2012_003_51529_0164" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15687"/>
+        <mets:fptr FILEID="FID15688"/>
+      </mets:div>
+      <mets:div ORDER="166" LABEL="MS2012_003_51529_0165" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15689"/>
+        <mets:fptr FILEID="FID15690"/>
+      </mets:div>
+      <mets:div ORDER="167" LABEL="MS2012_003_51529_0166" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15691"/>
+        <mets:fptr FILEID="FID15692"/>
+      </mets:div>
+      <mets:div ORDER="168" LABEL="MS2012_003_51529_0167" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15693"/>
+        <mets:fptr FILEID="FID15694"/>
+      </mets:div>
+      <mets:div ORDER="169" LABEL="MS2012_003_51529_0168" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15695"/>
+        <mets:fptr FILEID="FID15696"/>
+      </mets:div>
+      <mets:div ORDER="170" LABEL="MS2012_003_51529_0169" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15697"/>
+        <mets:fptr FILEID="FID15698"/>
+      </mets:div>
+      <mets:div ORDER="171" LABEL="MS2012_003_51529_0170" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15699"/>
+        <mets:fptr FILEID="FID15700"/>
+      </mets:div>
+      <mets:div ORDER="172" LABEL="MS2012_003_51529_0171" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15701"/>
+        <mets:fptr FILEID="FID15702"/>
+      </mets:div>
+      <mets:div ORDER="173" LABEL="MS2012_003_51529_0172" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15703"/>
+        <mets:fptr FILEID="FID15704"/>
+      </mets:div>
+      <mets:div ORDER="174" LABEL="MS2012_003_51529_0173" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15705"/>
+        <mets:fptr FILEID="FID15706"/>
+      </mets:div>
+      <mets:div ORDER="175" LABEL="MS2012_003_51529_0174" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15707"/>
+        <mets:fptr FILEID="FID15708"/>
+      </mets:div>
+      <mets:div ORDER="176" LABEL="MS2012_003_51529_0175" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15709"/>
+        <mets:fptr FILEID="FID15710"/>
+      </mets:div>
+      <mets:div ORDER="177" LABEL="MS2012_003_51529_0176" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15711"/>
+        <mets:fptr FILEID="FID15712"/>
+      </mets:div>
+      <mets:div ORDER="178" LABEL="MS2012_003_51529_0177" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15713"/>
+        <mets:fptr FILEID="FID15714"/>
+      </mets:div>
+      <mets:div ORDER="179" LABEL="MS2012_003_51529_0178" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15715"/>
+        <mets:fptr FILEID="FID15716"/>
+      </mets:div>
+      <mets:div ORDER="180" LABEL="MS2012_003_51529_0179" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15717"/>
+        <mets:fptr FILEID="FID15718"/>
+      </mets:div>
+      <mets:div ORDER="181" LABEL="MS2012_003_51529_0180" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15719"/>
+        <mets:fptr FILEID="FID15720"/>
+      </mets:div>
+      <mets:div ORDER="182" LABEL="MS2012_003_51529_0181" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15721"/>
+        <mets:fptr FILEID="FID15722"/>
+      </mets:div>
+      <mets:div ORDER="183" LABEL="MS2012_003_51529_0182" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15723"/>
+        <mets:fptr FILEID="FID15724"/>
+      </mets:div>
+      <mets:div ORDER="184" LABEL="MS2012_003_51529_0183" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15725"/>
+        <mets:fptr FILEID="FID15726"/>
+      </mets:div>
+      <mets:div ORDER="185" LABEL="MS2012_003_51529_0184" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15727"/>
+        <mets:fptr FILEID="FID15728"/>
+      </mets:div>
+      <mets:div ORDER="186" LABEL="MS2012_003_51529_0185" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15729"/>
+        <mets:fptr FILEID="FID15730"/>
+      </mets:div>
+      <mets:div ORDER="187" LABEL="MS2012_003_51529_0186" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15731"/>
+        <mets:fptr FILEID="FID15732"/>
+      </mets:div>
+      <mets:div ORDER="188" LABEL="MS2012_003_51529_0187" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15733"/>
+        <mets:fptr FILEID="FID15734"/>
+      </mets:div>
+      <mets:div ORDER="189" LABEL="MS2012_003_51529_0188" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15735"/>
+        <mets:fptr FILEID="FID15736"/>
+      </mets:div>
+      <mets:div ORDER="190" LABEL="MS2012_003_51529_0189" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15737"/>
+        <mets:fptr FILEID="FID15738"/>
+      </mets:div>
+      <mets:div ORDER="191" LABEL="MS2012_003_51529_0190" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15739"/>
+        <mets:fptr FILEID="FID15740"/>
+      </mets:div>
+      <mets:div ORDER="192" LABEL="MS2012_003_51529_0191" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15741"/>
+        <mets:fptr FILEID="FID15742"/>
+      </mets:div>
+      <mets:div ORDER="193" LABEL="MS2012_003_51529_0192" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15743"/>
+        <mets:fptr FILEID="FID15744"/>
+      </mets:div>
+      <mets:div ORDER="194" LABEL="MS2012_003_51529_0193" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15745"/>
+        <mets:fptr FILEID="FID15746"/>
+      </mets:div>
+      <mets:div ORDER="195" LABEL="MS2012_003_51529_0194" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15747"/>
+        <mets:fptr FILEID="FID15748"/>
+      </mets:div>
+      <mets:div ORDER="196" LABEL="MS2012_003_51529_0195" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15749"/>
+        <mets:fptr FILEID="FID15750"/>
+      </mets:div>
+      <mets:div ORDER="197" LABEL="MS2012_003_51529_0196" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15751"/>
+        <mets:fptr FILEID="FID15752"/>
+      </mets:div>
+      <mets:div ORDER="198" LABEL="MS2012_003_51529_0197" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15753"/>
+        <mets:fptr FILEID="FID15754"/>
+      </mets:div>
+      <mets:div ORDER="199" LABEL="MS2012_003_51529_0198" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15755"/>
+        <mets:fptr FILEID="FID15756"/>
+      </mets:div>
+      <mets:div ORDER="200" LABEL="MS2012_003_51529_0199" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15757"/>
+        <mets:fptr FILEID="FID15758"/>
+      </mets:div>
+      <mets:div ORDER="201" LABEL="MS2012_003_51529_0200" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15759"/>
+        <mets:fptr FILEID="FID15760"/>
+      </mets:div>
+      <mets:div ORDER="202" LABEL="MS2012_003_51529_0201" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15761"/>
+        <mets:fptr FILEID="FID15762"/>
+      </mets:div>
+      <mets:div ORDER="203" LABEL="MS2012_003_51529_0202" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15763"/>
+        <mets:fptr FILEID="FID15764"/>
+      </mets:div>
+      <mets:div ORDER="204" LABEL="MS2012_003_51529_0203" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15765"/>
+        <mets:fptr FILEID="FID15766"/>
+      </mets:div>
+      <mets:div ORDER="205" LABEL="MS2012_003_51529_0204" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15767"/>
+        <mets:fptr FILEID="FID15768"/>
+      </mets:div>
+      <mets:div ORDER="206" LABEL="MS2012_003_51529_0205" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15769"/>
+        <mets:fptr FILEID="FID15770"/>
+      </mets:div>
+      <mets:div ORDER="207" LABEL="MS2012_003_51529_0206" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15771"/>
+        <mets:fptr FILEID="FID15772"/>
+      </mets:div>
+      <mets:div ORDER="208" LABEL="MS2012_003_51529_0207" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15773"/>
+        <mets:fptr FILEID="FID15774"/>
+      </mets:div>
+      <mets:div ORDER="209" LABEL="MS2012_003_51529_0208" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15775"/>
+        <mets:fptr FILEID="FID15776"/>
+      </mets:div>
+      <mets:div ORDER="210" LABEL="MS2012_003_51529_0209" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15777"/>
+        <mets:fptr FILEID="FID15778"/>
+      </mets:div>
+      <mets:div ORDER="211" LABEL="MS2012_003_51529_0210" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15779"/>
+        <mets:fptr FILEID="FID15780"/>
+      </mets:div>
+      <mets:div ORDER="212" LABEL="MS2012_003_51529_0211" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15781"/>
+        <mets:fptr FILEID="FID15782"/>
+      </mets:div>
+      <mets:div ORDER="213" LABEL="MS2012_003_51529_0212" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15783"/>
+        <mets:fptr FILEID="FID15784"/>
+      </mets:div>
+      <mets:div ORDER="214" LABEL="MS2012_003_51529_0213" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15785"/>
+        <mets:fptr FILEID="FID15786"/>
+      </mets:div>
+      <mets:div ORDER="215" LABEL="MS2012_003_51529_0214" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15787"/>
+        <mets:fptr FILEID="FID15788"/>
+      </mets:div>
+      <mets:div ORDER="216" LABEL="MS2012_003_51529_0215" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15789"/>
+        <mets:fptr FILEID="FID15790"/>
+      </mets:div>
+      <mets:div ORDER="217" LABEL="MS2012_003_51529_0216" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15791"/>
+        <mets:fptr FILEID="FID15792"/>
+      </mets:div>
+      <mets:div ORDER="218" LABEL="MS2012_003_51529_0217" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15793"/>
+        <mets:fptr FILEID="FID15794"/>
+      </mets:div>
+      <mets:div ORDER="219" LABEL="MS2012_003_51529_0218" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15795"/>
+        <mets:fptr FILEID="FID15796"/>
+      </mets:div>
+      <mets:div ORDER="220" LABEL="MS2012_003_51529_0219" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15797"/>
+        <mets:fptr FILEID="FID15798"/>
+      </mets:div>
+      <mets:div ORDER="221" LABEL="MS2012_003_51529_0220" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15799"/>
+        <mets:fptr FILEID="FID15800"/>
+      </mets:div>
+      <mets:div ORDER="222" LABEL="MS2012_003_51529_0221" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15801"/>
+        <mets:fptr FILEID="FID15802"/>
+      </mets:div>
+      <mets:div ORDER="223" LABEL="MS2012_003_51529_0222" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15803"/>
+        <mets:fptr FILEID="FID15804"/>
+      </mets:div>
+      <mets:div ORDER="224" LABEL="MS2012_003_51529_0223" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15805"/>
+        <mets:fptr FILEID="FID15806"/>
+      </mets:div>
+      <mets:div ORDER="225" LABEL="MS2012_003_51529_0224" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15807"/>
+        <mets:fptr FILEID="FID15808"/>
+      </mets:div>
+      <mets:div ORDER="226" LABEL="MS2012_003_51529_0225" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15809"/>
+        <mets:fptr FILEID="FID15810"/>
+      </mets:div>
+      <mets:div ORDER="227" LABEL="MS2012_003_51529_0226" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15811"/>
+        <mets:fptr FILEID="FID15812"/>
+      </mets:div>
+      <mets:div ORDER="228" LABEL="MS2012_003_51529_0227" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15813"/>
+        <mets:fptr FILEID="FID15814"/>
+      </mets:div>
+      <mets:div ORDER="229" LABEL="MS2012_003_51529_0228" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15815"/>
+        <mets:fptr FILEID="FID15816"/>
+      </mets:div>
+      <mets:div ORDER="230" LABEL="MS2012_003_51529_0229" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15817"/>
+        <mets:fptr FILEID="FID15818"/>
+      </mets:div>
+      <mets:div ORDER="231" LABEL="MS2012_003_51529_0230" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15819"/>
+        <mets:fptr FILEID="FID15820"/>
+      </mets:div>
+      <mets:div ORDER="232" LABEL="MS2012_003_51529_0231" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15821"/>
+        <mets:fptr FILEID="FID15822"/>
+      </mets:div>
+      <mets:div ORDER="233" LABEL="MS2012_003_51529_0232" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15823"/>
+        <mets:fptr FILEID="FID15824"/>
+      </mets:div>
+      <mets:div ORDER="234" LABEL="MS2012_003_51529_0233" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15825"/>
+        <mets:fptr FILEID="FID15826"/>
+      </mets:div>
+      <mets:div ORDER="235" LABEL="MS2012_003_51529_0234" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15827"/>
+        <mets:fptr FILEID="FID15828"/>
+      </mets:div>
+      <mets:div ORDER="236" LABEL="MS2012_003_51529_0235" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15829"/>
+        <mets:fptr FILEID="FID15830"/>
+      </mets:div>
+      <mets:div ORDER="237" LABEL="MS2012_003_51529_0236" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15831"/>
+        <mets:fptr FILEID="FID15832"/>
+      </mets:div>
+      <mets:div ORDER="238" LABEL="MS2012_003_51529_0237" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15833"/>
+        <mets:fptr FILEID="FID15834"/>
+      </mets:div>
+      <mets:div ORDER="239" LABEL="MS2012_003_51529_0238" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15835"/>
+        <mets:fptr FILEID="FID15836"/>
+      </mets:div>
+      <mets:div ORDER="240" LABEL="MS2012_003_51529_0239" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15837"/>
+        <mets:fptr FILEID="FID15838"/>
+      </mets:div>
+      <mets:div ORDER="241" LABEL="MS2012_003_51529_0240" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15839"/>
+        <mets:fptr FILEID="FID15840"/>
+      </mets:div>
+      <mets:div ORDER="242" LABEL="MS2012_003_51529_0241" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15841"/>
+        <mets:fptr FILEID="FID15842"/>
+      </mets:div>
+      <mets:div ORDER="243" LABEL="MS2012_003_51529_0242" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15843"/>
+        <mets:fptr FILEID="FID15844"/>
+      </mets:div>
+      <mets:div ORDER="244" LABEL="MS2012_003_51529_0243" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15845"/>
+        <mets:fptr FILEID="FID15846"/>
+      </mets:div>
+      <mets:div ORDER="245" LABEL="MS2012_003_51529_0244" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15847"/>
+        <mets:fptr FILEID="FID15848"/>
+      </mets:div>
+      <mets:div ORDER="246" LABEL="MS2012_003_51529_0245" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15849"/>
+        <mets:fptr FILEID="FID15850"/>
+      </mets:div>
+      <mets:div ORDER="247" LABEL="MS2012_003_51529_0246" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15851"/>
+        <mets:fptr FILEID="FID15852"/>
+      </mets:div>
+      <mets:div ORDER="248" LABEL="MS2012_003_51529_0247" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15853"/>
+        <mets:fptr FILEID="FID15854"/>
+      </mets:div>
+      <mets:div ORDER="249" LABEL="MS2012_003_51529_0248" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15855"/>
+        <mets:fptr FILEID="FID15856"/>
+      </mets:div>
+      <mets:div ORDER="250" LABEL="MS2012_003_51529_0249" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15857"/>
+        <mets:fptr FILEID="FID15858"/>
+      </mets:div>
+      <mets:div ORDER="251" LABEL="MS2012_003_51529_0250" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15859"/>
+        <mets:fptr FILEID="FID15860"/>
+      </mets:div>
+      <mets:div ORDER="252" LABEL="MS2012_003_51529_0251" TYPE="DAOcomponent">
+        <mets:fptr FILEID="FID15861"/>
+        <mets:fptr FILEID="FID15862"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+
+</mets:mets>
