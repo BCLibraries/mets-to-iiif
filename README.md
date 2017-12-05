@@ -7,7 +7,7 @@ Builds a IIIF manifest from a Boston College Libraries METS file. Right now this
 To use the command line tool you will need to install locally, clone or download this repository, build the gem, and install it
 
     $ gem build metsiiif.gemspec
-    $ install ./metsiiif-0.1.0.gem
+    $ gem install ./metsiiif-0.1.0.gem
     
 ## Usage
 
