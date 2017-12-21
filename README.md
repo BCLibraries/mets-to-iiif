@@ -14,7 +14,7 @@ To use the command line tool you will need to install locally. Clone or download
 
 To run on the command line:
 
-    $ metsiiif /path/to/mets/file/here > out manifest.json
+    $ metsiiif /path/to/mets/file/here > manifest.json
 
 ## Development
 
