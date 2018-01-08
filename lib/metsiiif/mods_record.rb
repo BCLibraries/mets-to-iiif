@@ -3,7 +3,7 @@ module Metsiiif
 
     TITLE_TEXT = 'mods:titleInfo[@usage="primary"]/mods:title/text()'
 
-    RELATED_ITEM = 'mods:mods/mods:relatedItem[@type="host"]'
+    RELATED_ITEM = 'mods:relatedItem[@type="host"]'
 
     # @param [Nokogiri::XML::Node] mods_record
     def initialize(mods_record)
@@ -15,7 +15,7 @@ module Metsiiif
     end
 
     def host_title
-      @mods_record.xpath("#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("mods:mods/#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
   end
 end
