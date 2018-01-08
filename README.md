@@ -8,13 +8,18 @@ To use the command line tool you will need to install locally. Clone or download
 
     $ git clone https://github.com/BCLibraries/mets-to-iiif
     $ cd mets-to-iiif
-    $ gem install metsiiif-0.2.0.gem
+    $ gem build metsiiif-0.2.0.gemspec
+    $ gem install ./metsiiif-0.2.0.gem
     
 ## Usage
 
 To run on the command line:
 
     $ metsiiif /path/to/mets/file/here > manifest.json
+
+Or use a 'for' loop to generate several manifests:
+
+    $ for file in /path/to/mets/*.xml; do metsiiif $file >> `basename $file .xml`.json; done
 
 ## Development
 
