@@ -11,11 +11,11 @@ module Metsiiif
     end
 
     def title
-      @mods_record.xpath("mods:mods/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
 
     def host_title
-      @mods_record.xpath("mods:mods/#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
   end
 end
