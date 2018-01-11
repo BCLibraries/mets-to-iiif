@@ -19,7 +19,7 @@ To run on the command line:
 
 Or use a 'for' loop to generate several manifests:
 
-    $ for file in /path/to/mets/*.xml; do metsiiif $file >> `basename $file .xml`.json; done
+    $ for file in /path/to/mets/*.xml; do metsiiif $file > `basename $file .xml`.json; done
 
 ## Development
 
