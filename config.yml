@@ -5,4 +5,4 @@ iiif_server:
 manifest_server:
   host: library.bc.edu
   protocol: https
-  path:
+  path: /iiif/manifests
