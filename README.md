@@ -8,7 +8,7 @@ To use the command line tool you will need to install locally. Clone or download
 
     $ git clone https://github.com/BCLibraries/mets-to-iiif
     $ cd mets-to-iiif
-    $ gem build metsiiif-0.2.0.gemspec
+    $ gem build metsiiif.gemspec
     $ gem install ./metsiiif-0.2.0.gem
     
 ## Usage
