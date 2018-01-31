@@ -51,7 +51,7 @@ module Metsiiif
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
       seed = {
-          '@id' => "#{canvas_id}/annotations/1",
+          '@id' => "#{canvas_id}/annotation/1",
           'on' => canvas_id
       }
       annotation = IIIF::Presentation::Annotation.new(seed)
