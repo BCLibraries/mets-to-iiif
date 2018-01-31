@@ -44,5 +44,9 @@ module Metsiiif
       @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAO']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
+    def component_label
+      @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAOcomponent']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+    end
+
   end
 end
