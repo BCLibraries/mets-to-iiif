@@ -15,12 +15,14 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
+      # TODO: change sequence_base to full component label?
+      # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
       sequence = IIIF::Presentation::Sequence.new
       sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jp2", "#{comp}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{@sequence_base}/canvases/#{page_id}", "#{comp}", i)}
+      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
@@ -69,13 +71,18 @@ module Metsiiif
       IIIF::Presentation::Canvas.new(seed)
     end
 
-    def build_range(canvas_id, label, order)
+    def build_range(image_file, label, order)
+      separator = image_file.include?('_') ? '_' : '.'
+      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
+      page_id = image_id.split(separator).last
+
       range_id = "#{@sequence_base}/ranges/r-#{order}"
+      canvas_id = "#{@sequence_base}/canvases/#{page_id}"
 
       seed = {
           '@id' => range_id,
           'label' => label,
-          'canvases' => "[#{canvas_id}]"
+          'canvases' => [canvas_id]
       }
       IIIF::Presentation::Range.new(seed)
     end
