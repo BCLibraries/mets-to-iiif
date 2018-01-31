@@ -48,7 +48,7 @@ module Metsiiif
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
       page_id = image_id.split(separator).last
 
-      canvas_id = "#{@sequence_base}/canvases/#{page_id}"
+      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
       seed = {
           '@id' => "#{canvas_id}/annotations/1",
@@ -76,8 +76,8 @@ module Metsiiif
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
       page_id = image_id.split(separator).last
 
-      range_id = "#{@sequence_base}/ranges/r-#{order}"
-      canvas_id = "#{@sequence_base}/canvases/#{page_id}"
+      range_id = "#{@sequence_base}/range/r-#{order}"
+      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
       seed = {
           '@id' => range_id,
