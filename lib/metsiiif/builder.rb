@@ -30,6 +30,8 @@ module Metsiiif
       thumb = sequence.canvases.first.images.first.resource['@id']
       manifest.insert_after(existing_key: 'label', new_key: 'thumbnail', value: thumb)
 
+      structures = manifest["structures"][0]["ranges"]
+      manifest["structures"] = structures
       manifest.to_json(pretty: true)
     end
 
