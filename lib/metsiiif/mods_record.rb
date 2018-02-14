@@ -2,8 +2,8 @@ module Metsiiif
   class ModsRecord
 
     TITLE_TEXT = 'mods:titleInfo[@usage="primary"]/mods:title/text()'
-
     RELATED_ITEM = 'mods:relatedItem[@type="host"]'
+    ACCESS_CONDITION = 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
 
     # @param [Nokogiri::XML::Node] mods_record
     def initialize(mods_record)
@@ -16,6 +16,10 @@ module Metsiiif
 
     def host_title
       @mods_record.xpath("#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    end
+
+    def rights_information
+      @mods_record.xpath("#{ACCESS_CONDITION}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
   end
 end

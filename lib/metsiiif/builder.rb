@@ -2,7 +2,6 @@ require 'iiif/presentation'
 require 'metsiiif/mets_file'
 
 module Metsiiif
-
   class Builder
 
     def initialize (iiif_host, manifest_host)
@@ -40,7 +39,8 @@ module Metsiiif
           '@id' => "#{@manifest_host}/#{mets_file.obj_id}.json",
           'label' => "#{mets_file.mods.host_title} #{mets_file.mods.title}",
           'viewing_hint' => 'paged',
-          'description' => 'Longer description of item.'
+          'description' => 'Longer description of item.',
+          'attribution' => "#{mets_file.mods.rights_information}"
       }
       IIIF::Presentation::Manifest.new(seed)
     end
