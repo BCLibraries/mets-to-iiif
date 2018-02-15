@@ -40,7 +40,10 @@ module Metsiiif
           'label' => "#{mets_file.mods.host_title} #{mets_file.mods.title}",
           'viewing_hint' => 'paged',
           'description' => 'Longer description of item.',
-          'attribution' => "#{mets_file.mods.rights_information}"
+          'attribution' => "#{mets_file.mods.rights_information}",
+          'metadata' => [
+            {"handle": "#{mets_file.handle}"}
+          ]
       }
       IIIF::Presentation::Manifest.new(seed)
     end

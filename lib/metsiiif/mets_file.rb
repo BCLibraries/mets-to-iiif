@@ -25,6 +25,10 @@ module Metsiiif
       uri.split('/').last
     end
 
+    def handle
+      @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
+    end
+
     def agent_name
       @doc.xpath("#{AGENT}/mets:name/text()", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
