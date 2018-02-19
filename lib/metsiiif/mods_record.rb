@@ -3,6 +3,7 @@ module Metsiiif
 
     TITLE_TEXT = 'mods:titleInfo[@usage="primary"]/mods:title/text()'
     RELATED_ITEM = 'mods:relatedItem[@type="host"]'
+    ABSTRACT = 'mods:mods/mods:abstract'
 
     # Access condition constants
     AC_USE_AND_REPRODUCTION = 'mods:accessCondition[@type="useAndReproduction"]/text()'
@@ -20,6 +21,10 @@ module Metsiiif
 
     def host_title
       @mods_record.xpath("#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    end
+
+    def abstract
+      @mods_record.xpath("#{ABSTRACT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
 
     def rights_information
