@@ -94,7 +94,13 @@ module Metsiiif
 
     def image_resource_from_page_hash(page_id)
       base_uri = "#{@iiif_host}/#{page_id}"
-      params = {service_id: base_uri}
+      image_api_params = '/full/full/0/default.jpg'
+
+      params = {
+          service_id: base_uri,
+          resource_id_default: "#{base_uri}#{image_api_params}",
+          resource_id: "#{base_uri}#{image_api_params}"
+      }
       IIIF::Presentation::ImageResource.create_image_api_image_resource(params)
     end
   end
