@@ -26,7 +26,7 @@ module Metsiiif
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
       manifest.structures << range
-      thumb = sequence.canvases.first.images.first.resource['@id']
+      thumb = sequence.canvases.first.images.first.resource['@id'].gsub(/full\/full/, 'full/!200,200')
       manifest.insert_after(existing_key: 'label', new_key: 'thumbnail', value: thumb)
 
       structures = manifest["structures"][0]["ranges"]
