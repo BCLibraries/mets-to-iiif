@@ -1,6 +1,6 @@
 # Metsiiif
 
-Builds a IIIF manifest from a Boston College Libraries METS file. Right now this gem is BC specific.
+Builds a IIIF manifest from a Boston College Libraries METS file. Right now this gem is specific to BC's METS application profile.
 
 ## Installation
 
@@ -9,7 +9,7 @@ To use the command line tool you will need to install locally. Clone or download
     $ git clone https://github.com/BCLibraries/mets-to-iiif
     $ cd mets-to-iiif
     $ gem build metsiiif.gemspec
-    $ gem install ./metsiiif-0.2.0.gem
+    $ gem install ./metsiiif-x.x.x.gem
     
 ## Usage
 
