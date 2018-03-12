@@ -39,7 +39,6 @@ module Metsiiif
           '@id' => "#{@manifest_host}/#{mets_file.obj_id}.json",
           'label' => "#{mets_file.mods.title}, #{mets_file.mods.host_title}",
           'viewing_hint' => 'paged',
-          'description' => "#{mets_file.mods.abstract}",
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"}
