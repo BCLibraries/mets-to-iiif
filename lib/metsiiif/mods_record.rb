@@ -23,10 +23,6 @@ module Metsiiif
       @mods_record.xpath("#{RELATED_ITEM}/#{TITLE_TEXT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
 
-    def abstract
-      @mods_record.xpath("#{ABSTRACT}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-    end
-
     def rights_information
       if AC_USE_AND_REPRODUCTION.length > 0
         @mods_record.xpath("#{AC_USE_AND_REPRODUCTION}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
