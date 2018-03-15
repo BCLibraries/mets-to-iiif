@@ -1,6 +1,7 @@
 # Metsiiif
 
-Builds a IIIF manifest from a Boston College Libraries METS file. Right now this gem is specific to BC's METS application profile.
+Builds a IIIF manifest from a Boston College Libraries METS file using 
+[osullivan](https://github.com/iiif-prezi/osullivan).
 
 ## Installation
 
