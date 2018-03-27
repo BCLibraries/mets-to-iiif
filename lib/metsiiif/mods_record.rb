@@ -26,9 +26,9 @@ module Metsiiif
     end
 
     def rights_information
-      if @mods_record.xpath("#{AC_USE_AND_REPRODUCTION}", 'mods' => 'http://www.loc.gov/mods/v3').to_s).length > 0
+      if @mods_record.xpath("#{AC_USE_AND_REPRODUCTION}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
         @mods_record.xpath("#{AC_USE_AND_REPRODUCTION}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-      elsif @mods_record.xpath("#{AC_RESTRICTION_ON_ACCESS}", 'mods' => 'http://www.loc.gov/mods/v3').to_s).length > 0
+      elsif @mods_record.xpath("#{AC_RESTRICTION_ON_ACCESS}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
         @mods_record.xpath("#{AC_RESTRICTION_ON_ACCESS}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
       elsif @mods_record.xpath("#{AC_DISPLAY_LABEL}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
         @mods_record.xpath("#{AC_DISPLAY_LABEL}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
