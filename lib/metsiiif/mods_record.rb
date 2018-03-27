@@ -4,8 +4,8 @@ module Metsiiif
     TITLE_TEXT = 'mods:titleInfo[@usage="primary"]/mods:title/text()'
     RELATED_ITEM = 'mods:relatedItem[@type="host"]'
     ACCESSION_NUMBER = 'mods:identifier[@type="accession number"]'
-    DISPLAYFORM = 'mods:name/mods:displayForm'
-    ROLETERM = 'mods:name/mods:role/mods:roleTerm[@type="text"]'
+    DISPLAYFORM = 'mods:name/mods:displayForm/text()'
+    ROLETERM = 'mods:name/mods:role/mods:roleTerm[@type="text"]/text()'
 
     # Access condition constants
     AC_USE_AND_REPRODUCTION = 'mods:accessCondition[@type="useAndReproduction"]/text()'
@@ -36,7 +36,7 @@ module Metsiiif
     end
 
     def owner
-      if ROLETERM == 'Owner'
+      if @mods_record.xpath("#{ROLETERM}", 'mods' => 'http://www.loc.gov/mods/v3').to_s == 'Owner'
         @mods_record.xpath("#{DISPLAYFORM}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
       end
     end
