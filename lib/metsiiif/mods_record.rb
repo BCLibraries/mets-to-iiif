@@ -3,7 +3,6 @@ module Metsiiif
 
     TITLE_TEXT = 'mods:titleInfo[@usage="primary"]/mods:title/text()'
     RELATED_ITEM = 'mods:relatedItem[@type="host"]'
-    ABSTRACT = 'mods:mods/mods:abstract'
     ACCESSION_NUMBER = 'mods:identifier[@type="accession number"]'
     DISPLAYFORM = 'mods:name/mods:displayForm'
     ROLETERM = 'mods:name/mods:role/mods:roleTerm[@type="text"]'
