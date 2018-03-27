@@ -35,10 +35,6 @@ module Metsiiif
       end
     end
 
-    def collection_identifier
-      @mods_record.xpath("#{RELATED_ITEM}/#{ACCESSION_NUMBER}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-    end
-
     def owner
       if ROLETERM == 'Owner'
         @mods_record.xpath("#{DISPLAYFORM}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
