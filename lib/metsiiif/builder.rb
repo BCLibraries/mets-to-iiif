@@ -21,7 +21,13 @@ module Metsiiif
       sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jp2", "#{comp}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
+      toc_range = build_toc_range(mets_file.struct_map, mets_file.obj_id)
+      base_range = build_base_range(mets_file.struct_map, mets_file.obj_id)
+      hierarchy = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
+
+      range.ranges << toc_range
+      range.ranges << base_range
+      range.ranges << hierarchy
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
@@ -76,19 +82,40 @@ module Metsiiif
       IIIF::Presentation::Canvas.new(seed)
     end
 
+    def build_toc_range(image_ids, obj_id)
+      seed = {
+          '@id' => "#{@sequence_base}/range/toc",
+          'label' => 'Table of Contents',
+          'canvases' => image_ids
+      }
+      IIIF::Presentation::Range.new(seed)
+    end
+
+    def build_base_range(image_ids, obj_id)
+      seed = {
+          'within' => "#{@sequence_base}/range/toc",
+          '@id' => "#{@sequence_base}/range/r0",
+          'label' => obj_id,
+          'canvases' => image_ids
+      }
+      IIIF::Presentation::Range.new(seed)
+    end
+
     def build_range(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
       page_id = image_id.split(separator).last
 
-      range_id = "#{@sequence_base}/range/r-#{order}"
+      range_id = "#{@sequence_base}/range/r#{order}"
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
-      seed = {
-          '@id' => range_id,
-          'label' => label,
-          'canvases' => [canvas_id]
-      }
+      #unless range_id.include?("r0")
+        seed = {
+            '@id' => range_id,
+            'label' => label,
+            'canvases' => [canvas_id]
+        }
+      #end
       IIIF::Presentation::Range.new(seed)
     end
 
