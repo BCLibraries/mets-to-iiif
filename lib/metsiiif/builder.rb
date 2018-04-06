@@ -25,9 +25,8 @@ module Metsiiif
       base_range = build_base_range(mets_file.struct_map, mets_file.obj_id)
       hierarchy = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
 
-      range.ranges << toc_range
-      range.ranges << base_range
-      range.ranges << hierarchy
+      range.ranges = hierarchy
+      range.ranges.unshift(base_range).unshift(toc_range)
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
