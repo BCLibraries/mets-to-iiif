@@ -93,7 +93,7 @@ module Metsiiif
     def build_base_range(image_ids, obj_id)
       seed = {
           'within' => "#{@sequence_base}/range/toc",
-          '@id' => "#{@sequence_base}/range/r0",
+          '@id' => "#{@sequence_base}/range/base",
           'label' => obj_id,
           'canvases' => image_ids
       }
@@ -108,13 +108,12 @@ module Metsiiif
       range_id = "#{@sequence_base}/range/r#{order}"
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
-      #unless range_id.include?("r0")
-        seed = {
-            '@id' => range_id,
-            'label' => label,
-            'canvases' => [canvas_id]
-        }
-      #end
+      seed = {
+          'within' => "#{@sequence_base}/range/base",
+          '@id' => range_id,
+          'label' => label,
+          'canvases' => [canvas_id]
+      }
       IIIF::Presentation::Range.new(seed)
     end
 
