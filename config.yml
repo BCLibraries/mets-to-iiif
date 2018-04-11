@@ -5,7 +5,7 @@ iiif_server:
 iiif_server_http:
   host: scenery.bc.edu
   path: 
-  protocol: https
+  protocol: http
 manifest_server:
   host: library.bc.edu
   protocol: https
