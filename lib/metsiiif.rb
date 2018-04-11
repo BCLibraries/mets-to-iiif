@@ -18,11 +18,12 @@ module Metsiiif
     cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
 
     iiif_host = build_server_string(cnf['iiif_server'])
+    iiif_host_http = build_server_string(['iiif_server_https'])
     manifest_host = build_server_string(cnf['manifest_server'])
 
     mets_path = ARGV[0]
 
-    @builder = Metsiiif::Builder.new(iiif_host, manifest_host)
+    @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host)
     manifest = @builder.build(mets_path)
     puts manifest
   end
