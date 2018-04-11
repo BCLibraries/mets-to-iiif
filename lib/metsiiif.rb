@@ -19,6 +19,13 @@ module Metsiiif
 
     iiif_host = build_server_string(cnf['iiif_server'])
     manifest_host = build_server_string(cnf['manifest_server'])
+    metshdr = cnf['mets_fields']['metshdr']
+    agent = cnf['mets_fields']['agent']
+    dmdsec = cnf['mets_fields']['dmdsec']
+    descmd = cnf['mets_fields']['mods']
+    amdsec = cnf['mets_fields']['amdsec']
+    filesec = cnf['mets_fields']['filesec']
+    structmap = cnf['mets_fields']['structmap']
 
     mets_path = ARGV[0]
 

@@ -4,7 +4,7 @@ require 'metsiiif/mets_file'
 module Metsiiif
   class Builder
 
-    def initialize (iiif_host, manifest_host)
+    def initialize(iiif_host, manifest_host)
       @iiif_host = iiif_host
       @manifest_host = manifest_host
     end
