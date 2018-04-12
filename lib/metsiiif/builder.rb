@@ -18,10 +18,10 @@ module Metsiiif
       # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jp2", "#{comp}", i)}
+      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jpg", "#{comp}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
+      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jpg", "#{comp}", i)}
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
@@ -50,7 +50,7 @@ module Metsiiif
 
     def image_annotation_from_id(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jpg').chomp('.tif').chomp('.tiff')
       page_id = image_id.split(separator).last
 
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
@@ -78,7 +78,7 @@ module Metsiiif
 
     def build_range(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jpg').chomp('.tif').chomp('.tiff')
       page_id = image_id.split(separator).last
 
       range_id = "#{@sequence_base}/range/r-#{order}"
