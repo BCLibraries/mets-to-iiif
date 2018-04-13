@@ -34,7 +34,7 @@ module Metsiiif
     end
 
     def struct_map
-      structmap = @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAO']/mets:div[@TYPE='DAOcomponent']", 'mets' => 'http://www.loc.gov/METS/')
+      structmap = @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAO' or @TYPE='item']/mets:div[@TYPE='DAOcomponent' or @TYPE='page']", 'mets' => 'http://www.loc.gov/METS/')
       structmap.map {|component| component['LABEL']}
     end
 
@@ -45,11 +45,11 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAO']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAO' or @TYPE='item']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
     def component_label
-      @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAOcomponent']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{STRUCTMAP}/mets:div[@TYPE='DAOcomponent' or @TYPE='page']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
   end
