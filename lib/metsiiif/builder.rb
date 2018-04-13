@@ -8,6 +8,7 @@ module Metsiiif
       @iiif_host = iiif_host
       @iiif_host_http = iiif_host_http
       @manifest_host = manifest_host
+      @image_filetype = image_filetype
     end
 
     # @param mets_path [String] the METS file to convert
@@ -20,10 +21,10 @@ module Metsiiif
       # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jpg", "#{comp}", i)}
+      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.#{image_filetype}", "#{comp}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jpg", "#{comp}", i)}
+      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.#{image_filetype}", "#{comp}", i)}
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence

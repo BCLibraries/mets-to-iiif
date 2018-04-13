@@ -20,6 +20,7 @@ module Metsiiif
     iiif_host = build_server_string(cnf['iiif_server'])
     iiif_host_http = build_server_string(cnf['iiif_server_http'])
     manifest_host = build_server_string(cnf['manifest_server'])
+    image_filetype = "jp2"
 
     mets_path = ARGV[0]
 
