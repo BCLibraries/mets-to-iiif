@@ -24,7 +24,7 @@ module Metsiiif
 
     mets_path = ARGV[0]
 
-    @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host)
+    @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host, image_filetype)
     manifest = @builder.build(mets_path)
     puts manifest
   end
