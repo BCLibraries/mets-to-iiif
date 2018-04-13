@@ -50,7 +50,7 @@ module Metsiiif
 
     def image_annotation_from_id(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jpg').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
@@ -78,7 +78,7 @@ module Metsiiif
 
     def build_range(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jpg').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
       range_id = "#{@sequence_base}/range/r-#{order}"
