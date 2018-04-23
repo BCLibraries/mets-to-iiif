@@ -3,10 +3,11 @@ require 'metsiiif/mets_file'
 
 module Metsiiif
   class Builder
-
-    def initialize(iiif_host, manifest_host)
+    def initialize(iiif_host, iiif_host_http, manifest_host, image_filetype)
       @iiif_host = iiif_host
+      @iiif_host_http = iiif_host_http
       @manifest_host = manifest_host
+      @image_filetype = image_filetype
     end
 
     # @param mets_path [String] the METS file to convert
@@ -14,14 +15,15 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
+      @sequence_base_http = "#{@iiif_host_http}/#{mets_file.sequence_label}"
       # TODO: change sequence_base to full component label?
       # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.jp2", "#{comp}", i)}
+      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.jp2", "#{comp}", i)}
+      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i)}
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
@@ -50,10 +52,10 @@ module Metsiiif
 
     def image_annotation_from_id(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
-      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
+      canvas_id = "#{@sequence_base_http}/canvas/#{page_id}"
 
       seed = {
           '@id' => "#{canvas_id}/annotation/1",
@@ -78,11 +80,11 @@ module Metsiiif
 
     def build_range(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
-      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff')
+      image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
-      range_id = "#{@sequence_base}/range/r-#{order}"
-      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
+      range_id = "#{@sequence_base_http}/range/r-#{order}"
+      canvas_id = "#{@sequence_base_http}/canvas/#{page_id}"
 
       seed = {
           '@id' => range_id,

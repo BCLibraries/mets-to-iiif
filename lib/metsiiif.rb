@@ -18,6 +18,7 @@ module Metsiiif
     cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
 
     iiif_host = build_server_string(cnf['iiif_server'])
+    iiif_host_http = build_server_string(cnf['iiif_server_http'])
     manifest_host = build_server_string(cnf['manifest_server'])
     metshdr = cnf['mets_fields']['metshdr']
     agent = cnf['mets_fields']['agent']
@@ -26,10 +27,11 @@ module Metsiiif
     amdsec = cnf['mets_fields']['amdsec']
     filesec = cnf['mets_fields']['filesec']
     structmap = cnf['mets_fields']['structmap']
+    image_filetype = "jp2"
 
     mets_path = ARGV[0]
 
-    @builder = Metsiiif::Builder.new(iiif_host, manifest_host)
+    @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host, image_filetype)
     manifest = @builder.build(mets_path)
     puts manifest
   end
