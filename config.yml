@@ -27,3 +27,4 @@ mods_fields:
     useandreproduction: 'mods:accessCondition[@type="useAndReproduction"]/text()'
     restrictiononaccess: 'mods:accessCondition[@type="restrictionOnAccess"]/text()'
     conditions_governing_use_note: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
+image_filetype: jp2

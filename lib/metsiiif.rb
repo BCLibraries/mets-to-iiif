@@ -27,7 +27,7 @@ module Metsiiif
     amdsec = cnf['mets_fields']['amdsec']
     filesec = cnf['mets_fields']['filesec']
     structmap = cnf['mets_fields']['structmap']
-    image_filetype = "jp2"
+    image_filetype = cnf['image_filetype']
 
     mets_path = ARGV[0]
 
