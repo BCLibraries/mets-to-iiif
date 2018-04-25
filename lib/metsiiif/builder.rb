@@ -11,8 +11,8 @@ module Metsiiif
     end
 
     # @param mets_path [String] the METS file to convert
-    def build(mets_path)
-      mets_file = Metsiiif::MetsFile.new(mets_path)
+    def build(mets_path, agent, descmd, structmap)
+      mets_file = Metsiiif::MetsFile.new(mets_path, agent, descmd, structmap)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
       @sequence_base_http = "#{@iiif_host_http}/#{mets_file.sequence_label}"
