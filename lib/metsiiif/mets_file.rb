@@ -30,10 +30,18 @@ module Metsiiif
 
     # @return [Metsiiif::ModsRecord]
     def mods
+      cnf = YAML::load_file(File.join(__dir__, '../../config.yml'))
+
       mods_node = @doc.xpath(@descmd, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
-      ModsRecord.new(mods_node, @title, @relateditem, @roleterm, 
-                     @useandreproduction, @restrictiononaccess, 
-                     @conditions_governing_use_note)
+      title = cnf['mods_fields']['title']
+      relateditem = cnf['mods_fields']['relateditem']
+      roleterm = cnf['mods_fields']['roleterm']
+      useandreproduction = cnf['mods_fields']['accesscondition']['useandreproduction']
+      restrictiononaccess = cnf['mods_fields']['accesscondition']['restrictiononaccess']
+      conditions_governing_use_note = cnf['mods_fields']['accesscondition']['conditions_governing_use_note']
+
+      ModsRecord.new(mods_node, title, relateditem, roleterm, useandreproduction, 
+                     restrictiononaccess, conditions_governing_use_note)
     end
 
     def sequence_label
