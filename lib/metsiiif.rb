@@ -3,8 +3,15 @@ require 'metsiiif/builder'
 require 'yaml'
 require 'optparse'
 
-
 module Metsiiif
+  class Config
+    attr_reader :cnf
+    @@cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
+    def self.cnf
+      @@cnf
+    end
+  end
+
   def self.main
     OptionParser.new do |parser|
       parser.banner = "Usage: metsiiif [options] /path/to/mets"
@@ -15,29 +22,23 @@ module Metsiiif
       end
     end.parse!
 
-    cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
+    #@cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
 
-    iiif_host = build_server_string(cnf['iiif_server'])
-    iiif_host_http = build_server_string(cnf['iiif_server_http'])
-    manifest_host = build_server_string(cnf['manifest_server'])
+    iiif_host = build_server_string(Config.cnf['iiif_server'])
+    iiif_host_http = build_server_string(Config.cnf['iiif_server_http'])
+    manifest_host = build_server_string(Config.cnf['manifest_server'])
 
-    image_filetype = cnf['image_filetype']
+    image_filetype = Config.cnf['image_filetype']
 
-    agent = cnf['mets_fields']['agent']
-    descmd = cnf['mets_fields']['mods']
-    structmap = cnf['mets_fields']['structmap']
-
-    title = cnf['mods_fields']['title']
-    relateditem = cnf['mods_fields']['relateditem']
-    roleterm = cnf['mods_fields']['roleterm']
-    useandreproduction = cnf['mods_fields']['accesscondition']['useandreproduction']
-    restrictiononaccess = cnf['mods_fields']['accesscondition']['restrictiononaccess']
-    conditions_governing_use_note = cnf['mods_fields']['accesscondition']['conditions_governing_use_note']
+    agent = Config.cnf['mets_fields']['agent']
+    descmd = Config.cnf['mets_fields']['descmd']
+    structmap = Config.cnf['mets_fields']['structmap']
 
     mets_path = ARGV[0]
 
     @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host, image_filetype)
-    manifest = @builder.build(mets_path)
+    manifest = @builder.build(mets_path, agent, descmd, structmap)
+
     puts manifest
   end
 

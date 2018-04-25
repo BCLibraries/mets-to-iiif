@@ -30,7 +30,7 @@ module Metsiiif
 
     # @return [Metsiiif::ModsRecord]
     def mods
-      cnf = YAML::load_file(File.join(__dir__, '../../config.yml'))
+      cnf = Config.cnf
 
       mods_node = @doc.xpath(@descmd, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
       title = cnf['mods_fields']['title']
