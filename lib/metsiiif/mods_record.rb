@@ -1,12 +1,11 @@
 module Metsiiif
   class ModsRecord
     # @param [Nokogiri::XML::Node] mods_record
-    def initialize(mods_record, title, relateditem, accession_number, roleterm, 
-                   useandreproduction, restrictiononaccess, conditions_governing_use_note)
+    def initialize(mods_record, title, relateditem, roleterm, useandreproduction, 
+                   restrictiononaccess, conditions_governing_use_note)
       @mods_record = mods_record
       @title = title
       @relateditem = relateditem
-      @accession_number = accession_number
       @roleterm = roleterm
       @useandreproduction = useandreproduction
       @restrictiononaccess = restrictiononaccess

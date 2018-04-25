@@ -11,17 +11,12 @@ manifest_server:
   protocol: https
   path: /iiif/manifests
 mets_fields:
-  metshdr: '/mets:mets/mets:metsHdr'
   agent: '/mets:mets/mets:metsHdr/mets:agent'
-  dmdsec: '/mets:mets/mets:dmdSec'
-  mods: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
-  amdsec: '/mets:mets/mets:amdSec'
-  filesec: 'mets:mets/mets:fileSec'
+  descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: 'mets:mets/mets:structMap'
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title/text()'
   relateditem: 'mods:relatedItem[@type="host"]'
-  accession_number: 'mods:identifier[@type="accession number"]'
   roleterm: 'mods:name/mods:role/mods:roleTerm[@type="text"]/text()'
   accesscondition:
     useandreproduction: 'mods:accessCondition[@type="useAndReproduction"]/text()'

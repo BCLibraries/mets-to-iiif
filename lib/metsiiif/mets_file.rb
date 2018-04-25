@@ -3,12 +3,10 @@ require 'metsiiif/mods_record'
 
 module Metsiiif
   class MetsFile
-    def initialize(mets_path, agent, mods, amdsec, filesec, structmap)
+    def initialize(mets_path, agent, descmd, structmap)
       @doc = File.open(mets_path) {|f| Nokogiri::XML(f)}
       @agent = agent
-      @mods = mods
-      @amdsec = amdsec
-      @filesec = filesec
+      @descmd = descmd
       @structmap = structmap
     end
 
@@ -32,8 +30,8 @@ module Metsiiif
 
     # @return [Metsiiif::ModsRecord]
     def mods
-      mods_node = @doc.xpath(MODS, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
-      ModsRecord.new(mods_node, @title, @relateditem, @accession_number, @roleterm, 
+      mods_node = @doc.xpath(@descmd, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
+      ModsRecord.new(mods_node, @title, @relateditem, @roleterm, 
                      @useandreproduction, @restrictiononaccess, 
                      @conditions_governing_use_note)
     end
