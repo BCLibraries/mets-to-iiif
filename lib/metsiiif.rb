@@ -22,8 +22,6 @@ module Metsiiif
       end
     end.parse!
 
-    #@cnf = YAML::load_file(File.join(__dir__, '../config.yml'))
-
     iiif_host = build_server_string(Config.cnf['iiif_server'])
     iiif_host_http = build_server_string(Config.cnf['iiif_server_http'])
     manifest_host = build_server_string(Config.cnf['manifest_server'])
