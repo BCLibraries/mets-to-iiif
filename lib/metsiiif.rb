@@ -20,14 +20,19 @@ module Metsiiif
     iiif_host = build_server_string(cnf['iiif_server'])
     iiif_host_http = build_server_string(cnf['iiif_server_http'])
     manifest_host = build_server_string(cnf['manifest_server'])
-    metshdr = cnf['mets_fields']['metshdr']
-    agent = cnf['mets_fields']['agent']
-    dmdsec = cnf['mets_fields']['dmdsec']
-    descmd = cnf['mets_fields']['mods']
-    amdsec = cnf['mets_fields']['amdsec']
-    filesec = cnf['mets_fields']['filesec']
-    structmap = cnf['mets_fields']['structmap']
+
     image_filetype = cnf['image_filetype']
+
+    agent = cnf['mets_fields']['agent']
+    descmd = cnf['mets_fields']['mods']
+    structmap = cnf['mets_fields']['structmap']
+
+    title = cnf['mods_fields']['title']
+    relateditem = cnf['mods_fields']['relateditem']
+    roleterm = cnf['mods_fields']['roleterm']
+    useandreproduction = cnf['mods_fields']['accesscondition']['useandreproduction']
+    restrictiononaccess = cnf['mods_fields']['accesscondition']['restrictiononaccess']
+    conditions_governing_use_note = cnf['mods_fields']['accesscondition']['conditions_governing_use_note']
 
     mets_path = ARGV[0]
 
