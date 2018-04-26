@@ -36,13 +36,10 @@ module Metsiiif
       mods_node = @doc.xpath(@descmd, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
       title = cnf['mods_fields']['title']
       relateditem = cnf['mods_fields']['relateditem']
-      roleterm = cnf['mods_fields']['roleterm']
-      useandreproduction = cnf['mods_fields']['accesscondition']['useandreproduction']
-      restrictiononaccess = cnf['mods_fields']['accesscondition']['restrictiononaccess']
-      conditions_governing_use_note = cnf['mods_fields']['accesscondition']['conditions_governing_use_note']
+      owner = cnf['mods_fields']['owner']
+      accesscondition = cnf['mods_fields']['accesscondition']
 
-      ModsRecord.new(mods_node, title, relateditem, roleterm, useandreproduction, 
-                     restrictiononaccess, conditions_governing_use_note)
+      ModsRecord.new(mods_node, title, relateditem, owner, accesscondition)
     end
 
     def sequence_label

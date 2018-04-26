@@ -1,15 +1,12 @@
 module Metsiiif
   class ModsRecord
     # @param [Nokogiri::XML::Node] mods_record
-    def initialize(mods_record, title, relateditem, roleterm, useandreproduction, 
-                   restrictiononaccess, conditions_governing_use_note)
+    def initialize(mods_record, title, relateditem, owner, accesscondition)
       @mods_record = mods_record
       @title = title
       @relateditem = relateditem
-      @roleterm = roleterm
-      @useandreproduction = useandreproduction
-      @restrictiononaccess = restrictiononaccess
-      @conditions_governing_use_note = conditions_governing_use_note
+      @owner = owner
+      @accesscondition = accesscondition
     end
 
     def title
@@ -20,20 +17,16 @@ module Metsiiif
       @mods_record.xpath("#{@relateditem}/#{@title}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
 
-    def rights_information
-      if @mods_record.xpath("#{@useandreproduction}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
-        @mods_record.xpath("#{@useandreproduction}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-      elsif @mods_record.xpath("#{@restrictiononaccess}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
-        @mods_record.xpath("#{@restrictiononaccess}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-      elsif @mods_record.xpath("#{@conditions_governing_use_note}", 'mods' => 'http://www.loc.gov/mods/v3').to_s.length > 0
-        @mods_record.xpath("#{@conditions_governing_use_note}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    def owner
+      if @owner.include?('mods') && @mods_record.xpath("#{@owner}", 'mods' => 'http://www.loc.gov/mods/v3').to_s == 'Owner'
+        @mods_record.xpath("mods:name/mods:namePart[2]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s + ", " + @mods_record.xpath("mods:name/mods:namePart[1]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      else
+        @owner
       end
     end
 
-    def owner
-      if @mods_record.xpath("#{@roleterm}", 'mods' => 'http://www.loc.gov/mods/v3').to_s == 'Owner'
-        @mods_record.xpath("mods:name/mods:namePart[2]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s + ", " + @mods_record.xpath("mods:name/mods:namePart[1]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
-      end
+    def rights_information
+      @mods_record.xpath("#{@accesscondition}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
   end
 end

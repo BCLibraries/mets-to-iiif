@@ -17,9 +17,6 @@ mets_fields:
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title/text()'
   relateditem: 'mods:relatedItem[@type="host"]'
-  roleterm: 'mods:name/mods:role/mods:roleTerm[@type="text"]/text()'
-  accesscondition:
-    useandreproduction: 'mods:accessCondition[@type="useAndReproduction"]/text()'
-    restrictiononaccess: 'mods:accessCondition[@type="restrictionOnAccess"]/text()'
-    conditions_governing_use_note: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
+  accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
+  owner: 'John J. Burns Library'
 image_filetype: jp2
