@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'metsiiif/config'
 require 'metsiiif/mods_record'
 
 module Metsiiif
