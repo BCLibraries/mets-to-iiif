@@ -17,6 +17,7 @@ mets_fields:
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title/text()'
   relateditem: 'mods:relatedItem[@type="host"]'
+  # accesscondition and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
   owner: 'John J. Burns Library'
 image_filetype: jp2

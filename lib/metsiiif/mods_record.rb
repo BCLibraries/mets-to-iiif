@@ -26,7 +26,11 @@ module Metsiiif
     end
 
     def rights_information
-      @mods_record.xpath("#{@accesscondition}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      if @accesscondition.include?('mods')
+        @mods_record.xpath("#{@accesscondition}", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      else
+        @accesscondition
+      end
     end
   end
 end
