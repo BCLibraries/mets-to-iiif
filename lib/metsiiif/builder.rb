@@ -37,7 +37,7 @@ module Metsiiif
     end
 
     def build_manifest(mets_file)
-      if mets_file.mods.host_title == mets_file.mods.title
+      if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title == ''
         mods_title = mets_file.mods.title
       else
         mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
