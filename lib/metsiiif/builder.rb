@@ -5,7 +5,6 @@ module Metsiiif
   class Builder
     def initialize(iiif_host, iiif_host_http, manifest_host, image_filetype)
       @iiif_host = iiif_host
-      @iiif_host_http = iiif_host_http
       @manifest_host = manifest_host
       @image_filetype = image_filetype
     end
@@ -15,7 +14,6 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path, agent, descmd, structmap)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
-      @sequence_base_http = "#{@iiif_host_http}/#{mets_file.sequence_label}"
       # TODO: change sequence_base to full component label?
       # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
@@ -61,7 +59,7 @@ module Metsiiif
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
-      canvas_id = "#{@sequence_base_http}/canvas/#{page_id}"
+      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
       seed = {
           '@id' => "#{canvas_id}/annotation/1",
@@ -89,8 +87,8 @@ module Metsiiif
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
       page_id = image_id.split(separator).last
 
-      range_id = "#{@sequence_base_http}/range/r-#{order}"
-      canvas_id = "#{@sequence_base_http}/canvas/#{page_id}"
+      range_id = "#{@sequence_base}/range/r-#{order}"
+      canvas_id = "#{@sequence_base}/canvas/#{page_id}"
 
       seed = {
           '@id' => range_id,
