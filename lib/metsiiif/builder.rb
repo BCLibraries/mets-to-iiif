@@ -37,14 +37,20 @@ module Metsiiif
     end
 
     def build_manifest(mets_file)
+      if mets_file.mods.host_title == mets_file.mods.title
+        mods_title = mets_file.mods.title
+      else
+        mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
+      end
+
       seed = {
           '@id' => "#{@manifest_host}/#{mets_file.obj_id}.json",
-          'label' => "#{mets_file.mods.title}, #{mets_file.mods.host_title}",
+          'label' => "#{mods_title}",
           'viewing_hint' => 'paged',
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"},
-            {"label": "Preferred Citation", "value": "#{mets_file.mods.title}, #{mets_file.mods.host_title}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
+            {"label": "Preferred Citation", "value": "#{mods_title}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
           ]
       }
       IIIF::Presentation::Manifest.new(seed)
