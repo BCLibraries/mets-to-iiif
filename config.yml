@@ -2,10 +2,6 @@ iiif_server:
   host: scenery.bc.edu
   path:
   protocol: https
-iiif_server_http:
-  host: scenery.bc.edu
-  path: 
-  protocol: http
 manifest_server:
   host: library.bc.edu
   protocol: https
@@ -19,5 +15,5 @@ mods_fields:
   relateditem: 'mods:relatedItem[@type="host"]'
   # accesscondition and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
-  owner: 'John J. Burns Library'
+  owner: 'John J. Burns Library, Boston College'
 image_filetype: jp2
