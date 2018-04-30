@@ -17,7 +17,6 @@ module Metsiiif
     cnf = Config.cnf
 
     iiif_host = build_server_string(cnf['iiif_server'])
-    iiif_host_http = build_server_string(cnf['iiif_server_http'])
     manifest_host = build_server_string(cnf['manifest_server'])
 
     image_filetype = cnf['image_filetype']
@@ -28,7 +27,7 @@ module Metsiiif
 
     mets_path = ARGV[0]
 
-    @builder = Metsiiif::Builder.new(iiif_host, iiif_host_http, manifest_host, image_filetype)
+    @builder = Metsiiif::Builder.new(iiif_host, manifest_host, image_filetype)
     manifest = @builder.build(mets_path, agent, descmd, structmap)
 
     puts manifest

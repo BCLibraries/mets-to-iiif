@@ -3,7 +3,7 @@ require 'metsiiif/mets_file'
 
 module Metsiiif
   class Builder
-    def initialize(iiif_host, iiif_host_http, manifest_host, image_filetype)
+    def initialize(iiif_host, manifest_host, image_filetype)
       @iiif_host = iiif_host
       @manifest_host = manifest_host
       @image_filetype = image_filetype
@@ -35,8 +35,13 @@ module Metsiiif
     end
 
     def build_manifest(mets_file)
-      if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title == ''
+      # TODO: refactor all of this! See host_title? and creator?
+      if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title.length == 0 && !mets_file.mods.creator.nil?
+        mods_title = mets_file.mods.creator + ', ' + mets_file.mods.title
+      elsif mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title.length == 0
         mods_title = mets_file.mods.title
+      elsif mets_file.mods.host_title != mets_file.mods.title && mets_file.mods.host_title.length > 0 && !mets_file.mods.creator.nil?
+        mods_title = mets_file.mods.creator + ', ' + mets_file.mods.title + ', ' + mets_file.mods.host_title
       else
         mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
       end
@@ -108,6 +113,12 @@ module Metsiiif
           resource_id: "#{base_uri}#{image_api_params}"
       }
       IIIF::Presentation::ImageResource.create_image_api_image_resource(params)
+    end
+
+    def host_title?
+    end
+
+    def creator?
     end
   end
 end

@@ -11,9 +11,10 @@ mets_fields:
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: 'mets:mets/mets:structMap'
 mods_fields:
-  title: 'mods:titleInfo[@usage="primary"]/mods:title/text()'
+  title: 'mods:titleInfo[@usage="primary"]/mods:title'
   relateditem: 'mods:relatedItem[@type="host"]'
-  # accesscondition and owner can be XPath or strings
-  accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]/text()'
-  owner: 'John J. Burns Library, Boston College'
+  # accesscondition, creator, and owner can be XPath or strings
+  accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]'
+  creator: 
+  owner: 'mods:name[@authority="naf" and @type="corporate"]'
 image_filetype: jp2
