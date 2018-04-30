@@ -1,5 +1,5 @@
 iiif_server:
-  host: scenery.bc.edu
+  host: iiif.bc.edu
   path:
   protocol: https
 manifest_server:
