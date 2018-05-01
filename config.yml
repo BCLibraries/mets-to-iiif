@@ -1,5 +1,5 @@
 iiif_server:
-  host: iiif.bc.edu
+  host: scenery.bc.edu
   path:
   protocol: https
 manifest_server:
@@ -9,12 +9,12 @@ manifest_server:
 mets_fields:
   agent: '/mets:mets/mets:metsHdr/mets:agent'
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
-  structmap: 'mets:mets/mets:structMap'
+  structmap: '/mets:mets/mets:structMap'
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title'
   relateditem: 'mods:relatedItem[@type="host"]'
   # accesscondition, creator, and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]'
-  creator: 
+  creator: 'mods:name[@authority="naf" and @type="personal"]'
   owner: 'mods:name[@authority="naf" and @type="corporate"]'
 image_filetype: jp2
