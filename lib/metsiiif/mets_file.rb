@@ -50,6 +50,5 @@ module Metsiiif
     def component_label
       @doc.xpath("#{@structmap}mets:div[@TYPE='DAOcomponent' or @TYPE='page']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
-
   end
 end
