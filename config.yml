@@ -1,3 +1,5 @@
+# Leave fields blank to omit them from the manifest
+
 iiif_server:
   host: scenery.bc.edu
   path:
@@ -12,7 +14,7 @@ mets_fields:
   structmap: '/mets:mets/mets:structMap'
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title'
-  relateditem: 'mods:relatedItem[@type="host"]'
+  host_title: 'mods:relatedItem[@type="host"]/mods:titleInfo[@usage="primary"]/mods:title'
   # accesscondition, creator, and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]'
   creator: 'mods:name[@authority="naf" and @type="personal"]'
