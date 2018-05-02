@@ -1,20 +1,13 @@
 require 'metsiiif/version'
-require 'metsiiif/config'
+require 'metsiiif/opts'
 require 'metsiiif/builder'
 require 'optparse'
 
 module Metsiiif
   def self.main
-    OptionParser.new do |parser|
-      parser.banner = "Usage: metsiiif [options] /path/to/mets"
-
-      parser.on("-h", "--help", "Show this help message") do ||
-        puts parser
-        exit
-      end
-    end.parse!
-
-    cnf = Config.cnf
+    opt_parser = Opts.parse(ARGV)
+    cnf = Opts.cnf
+    puts cnf
 
     iiif_host = build_server_string(cnf['iiif_server'])
     manifest_host = build_server_string(cnf['manifest_server'])

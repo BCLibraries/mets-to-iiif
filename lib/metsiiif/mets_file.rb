@@ -1,5 +1,5 @@
 require 'nokogiri'
-require 'metsiiif/config'
+require 'metsiiif/opts'
 require 'metsiiif/mods_record'
 
 module Metsiiif
@@ -31,7 +31,7 @@ module Metsiiif
 
     # @return [Metsiiif::ModsRecord]
     def mods
-      cnf = Config.cnf
+      cnf = Opts.cnf
 
       mods_node = @doc.xpath(@descmd, 'mets' => 'http://www.loc.gov/METS/', 'mods' => 'http://www.loc.gov/mods/v3')
       title = cnf['mods_fields']['title']
