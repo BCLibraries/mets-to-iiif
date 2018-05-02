@@ -27,16 +27,14 @@ module Metsiiif
       end
 
       opt_parser.parse!(args)
+    end
 
+    def self.cnf
       if @options.config_file
         @cnf = YAML::load_file(@options.config_file)
       else
         @cnf = YAML::load_file(File.join(__dir__, '../../config.yml'))
       end
-    end
-
-    def self.cnf
-      @cnf
     end
 
   end

@@ -7,7 +7,6 @@ module Metsiiif
   def self.main
     opt_parser = Opts.parse(ARGV)
     cnf = Opts.cnf
-    puts cnf
 
     iiif_host = build_server_string(cnf['iiif_server'])
     manifest_host = build_server_string(cnf['manifest_server'])
