@@ -1,7 +1,7 @@
 # Leave fields blank to omit them from the manifest
 
 iiif_server:
-  host: scenery.bc.edu
+  host: iiif.bc.edu
   path:
   protocol: https
 manifest_server:
