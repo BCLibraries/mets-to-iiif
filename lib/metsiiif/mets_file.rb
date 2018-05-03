@@ -44,11 +44,11 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{@structmap}/mets:div[@TYPE='DAO' or @TYPE='item']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/mets:div[@TYPE='DAO' or @TYPE='item' or @TYPE='images']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
     def component_label
-      @doc.xpath("#{@structmap}mets:div[@TYPE='DAOcomponent' or @TYPE='page']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/mets:div[@TYPE='DAOcomponent' or @TYPE='page' or @TYPE='image']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
   end
 end
