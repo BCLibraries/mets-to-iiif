@@ -9,7 +9,6 @@ manifest_server:
   protocol: https
   path: /iiif/manifests
 mets_fields:
-  agent: '/mets:mets/mets:metsHdr/mets:agent'
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: '/mets:mets/mets:structMap'
 mods_fields:

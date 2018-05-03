@@ -4,9 +4,8 @@ require 'metsiiif/mods_record'
 
 module Metsiiif
   class MetsFile
-    def initialize(mets_path, agent, descmd, structmap)
+    def initialize(mets_path, descmd, structmap)
       @doc = File.open(mets_path) {|f| Nokogiri::XML(f)}
-      @agent = agent
       @descmd = descmd
       @structmap = structmap
     end
@@ -18,10 +17,6 @@ module Metsiiif
 
     def handle
       @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
-    end
-
-    def agent_name
-      @doc.xpath("#{@agent}/mets:name/text()", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
     def struct_map
