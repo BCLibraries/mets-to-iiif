@@ -10,8 +10,8 @@ module Metsiiif
     end
 
     # @param mets_path [String] the METS file to convert
-    def build(mets_path, descmd, structmap)
-      mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap)
+    def build(mets_path, descmd, structmap, sequence_div, component_div)
+      mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
       # TODO: change sequence_base to full component label?

@@ -4,10 +4,12 @@ require 'metsiiif/mods_record'
 
 module Metsiiif
   class MetsFile
-    def initialize(mets_path, descmd, structmap)
+    def initialize(mets_path, descmd, structmap, sequence_div, component_div)
       @doc = File.open(mets_path) {|f| Nokogiri::XML(f)}
       @descmd = descmd
       @structmap = structmap
+      @sequence_div = sequence_div
+      @component_div = component_div
     end
 
     def obj_id
@@ -20,7 +22,7 @@ module Metsiiif
     end
 
     def struct_map
-      structmap = @doc.xpath("#{@structmap}/mets:div[@TYPE='DAO' or @TYPE='item']/mets:div[@TYPE='DAOcomponent' or @TYPE='page']", 'mets' => 'http://www.loc.gov/METS/')
+      structmap = @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}", 'mets' => 'http://www.loc.gov/METS/')
       structmap.map {|component| component['LABEL']}
     end
 
@@ -39,11 +41,11 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{@structmap}/mets:div[@TYPE='DAO' or @TYPE='item' or @TYPE='images']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
     def component_label
-      @doc.xpath("#{@structmap}/mets:div[@TYPE='DAOcomponent' or @TYPE='page' or @TYPE='image']/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
   end
 end
