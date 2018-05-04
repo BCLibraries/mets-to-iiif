@@ -13,7 +13,7 @@ module Metsiiif
     def build(mets_path, descmd, structmap, sequence_div, component_div)
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
-      @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
+      @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
       # TODO: change sequence_base to full component label?
       # @sequence_component = "#{@iiif_host}/#{mets_file.component_label}"
 
