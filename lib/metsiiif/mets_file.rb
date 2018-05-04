@@ -14,7 +14,8 @@ module Metsiiif
 
     def obj_id
       uri = @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
-      uri.split('/').last
+      prefix = "MS2001_039_"
+      prefix + uri.split('/').last
     end
 
     def handle
