@@ -14,8 +14,12 @@ module Metsiiif
 
     def obj_id
       uri = @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
-      prefix = "MS2001_039_"
-      prefix + uri.split('/').last
+      if mods.host_title == 'Bobbie Hanvey Photographic Archives'
+        prefix = "MS2001_039_"
+        prefix + uri.split('/').last
+      else
+        uri.split('/').last
+      end
     end
 
     def handle
