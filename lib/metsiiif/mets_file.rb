@@ -46,11 +46,7 @@ module Metsiiif
     end
 
     def sequence_label
-      if @sequence_div.include?('mods')
-        @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
-      else
-        @sequence_div
-      end
+      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
     end
 
     def component_label
