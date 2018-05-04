@@ -11,6 +11,7 @@ manifest_server:
 mets_fields:
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: '/mets:mets/mets:structMap'
+  # sequence_div can be XPATH or a string
   sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images"]'
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
 mods_fields:
