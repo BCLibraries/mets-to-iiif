@@ -14,10 +14,10 @@ mets_fields:
   sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images"]'
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
 mods_fields:
-  title: 'mods:titleInfo[@usage="primary"]/mods:title'
-  host_title: 'mods:relatedItem[@type="host"]/mods:titleInfo[@usage="primary"]/mods:title'
+  title: 'mods:titleInfo/mods:title'
+  host_title: 'mods:relatedItem[@type="host"]/mods:titleInfo/mods:title'
   # accesscondition, creator, and owner can be XPath or strings
-  accesscondition: 'mods:accessCondition[@type="useAndReproduction"][@displayLabel="Conditions Governing Use note"]'
-  creator: 'mods:name[@authority="naf" and @type="personal"]'
+  accesscondition: 'mods:accessCondition[@type="useAndReproduction"]'
+  creator: 
   owner: 'mods:name[@authority="naf" and @type="corporate"]'
 image_filetype: jp2
