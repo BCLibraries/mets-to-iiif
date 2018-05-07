@@ -15,6 +15,7 @@ mets_fields:
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title'
+  subtitle: 'mods:titleInfo[@usage="primary"]/mods:subTitle'
   host_title: 'mods:relatedItem[@type="host"]/mods:titleInfo[@usage="primary"]/mods:title'
   # accesscondition, creator, and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"]'

@@ -1,9 +1,10 @@
 module Metsiiif
   class ModsRecord
     # @param [Nokogiri::XML::Node] mods_record
-    def initialize(mods_record, title, host_title, creator, owner, accesscondition)
+    def initialize(mods_record, title, subtitle, host_title, creator, owner, accesscondition)
       @mods_record = mods_record
       @title = title
+      @subtitle = subtitle
       @host_title = host_title
       @creator = creator
       @owner = owner
@@ -12,6 +13,12 @@ module Metsiiif
 
     def title
       @mods_record.xpath("#{@title}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    end
+
+    def subtitle
+      unless @subtitle.nil?
+        @mods_record.xpath("#{@subtitle}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      end
     end
 
     def host_title
