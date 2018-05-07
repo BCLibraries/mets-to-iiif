@@ -32,8 +32,10 @@ module Metsiiif
     end
 
     def owner
-      unless @owner.nil?
+      if @owner.include?('mods')
         @mods_record.xpath("#{@owner}/mods:namePart[2]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s + ", " + @mods_record.xpath("#{@owner}/mods:namePart[1]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      else
+        @owner
       end
     end
 
