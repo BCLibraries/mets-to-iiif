@@ -17,6 +17,9 @@ module Metsiiif
       if mods.host_title == 'Bobbie Hanvey Photographic Archives'
         prefix = "MS2001_039_"
         prefix + uri.split('/').last
+      elsif mods.localcollection.include?('bcimage')
+        prefix = "bcimage_"
+        prefix + uri.split('/').last
       else
         uri.split('/').last
       end

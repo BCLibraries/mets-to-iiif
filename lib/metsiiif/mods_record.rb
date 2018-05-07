@@ -37,5 +37,9 @@ module Metsiiif
         @accesscondition
       end
     end
+
+    def localcollection
+      @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    end
   end
 end
