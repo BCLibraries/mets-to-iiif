@@ -46,7 +46,7 @@ module Metsiiif
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"},
-            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.nil?}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
+            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.length > 0}#{mods_title}#{": " + mets_file.mods.subtitle if mets_file.mods.subtitle.length > 0}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
           ]
       }
       IIIF::Presentation::Manifest.new(seed)
