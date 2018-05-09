@@ -13,7 +13,7 @@ module Metsiiif
     def build(mets_path, descmd, structmap, sequence_div, component_div)
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
-      @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
+      @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
 
       sequence = IIIF::Presentation::Sequence.new
       sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i)}
