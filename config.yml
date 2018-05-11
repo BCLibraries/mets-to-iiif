@@ -11,7 +11,7 @@ manifest_server:
 mets_fields:
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: '/mets:mets/mets:structMap'
-  sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images" or @TYPE="manuscript"]'
+  sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images" or @TYPE="manuscript" or @TYPE="pages"]'
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
 mods_fields:
   title: 'mods:titleInfo[@usage="primary"]/mods:title'
