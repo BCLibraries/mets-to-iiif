@@ -5,7 +5,7 @@ require 'metsiiif/mods_record'
 module Metsiiif
   class MetsFile
     def initialize(mets_path, descmd, structmap, sequence_div, component_div)
-      @doc = File.open(mets_path) {|f| Nokogiri::XML(f)}
+      @doc = File.open(mets_path) { |f| Nokogiri::XML(f) }
       @descmd = descmd
       @structmap = structmap
       @sequence_div = sequence_div
@@ -33,7 +33,12 @@ module Metsiiif
 
     def struct_map
       structmap = @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}", 'mets' => 'http://www.loc.gov/METS/')
-      structmap.map {|component| component['LABEL']}
+      structmap.map { |component| component['LABEL'] }
+    end
+
+    def file_sec
+      filesec = @doc.xpath("/mets:mets/mets:fileSec/mets:fileGrp[@USE='archive image']/mets:file/mets:FLocat", 'mets' => 'http://www.loc.gov/METS/', 'xlink' => 'http://www.w3.org/1999/xlink')
+      filesec.map { |flocat| flocat['xlink:href'].split('/').last.gsub('.tif', '') }
     end
 
     # @return [Metsiiif::ModsRecord]

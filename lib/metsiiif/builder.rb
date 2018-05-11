@@ -15,11 +15,13 @@ module Metsiiif
 
       @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
 
+      structmap_filesec = struct_map.zip(file_sec)
+
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i)}
+      sequence.canvases = mets_file.structmap_filesec.map.with_index {|comp, i| image_annotation_from_id("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i)}
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i)}
+      range.ranges = mets_file.structmap_filesec.map.with_index {|comp, i| build_range("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i)}
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
