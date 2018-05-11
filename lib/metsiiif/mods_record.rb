@@ -50,5 +50,9 @@ module Metsiiif
     def localcollection
       @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
+
+    def identifier
+      @mods_record.xpath("mods:identifier[@TYPE='local']", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+    end
   end
 end
