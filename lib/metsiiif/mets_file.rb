@@ -20,6 +20,8 @@ module Metsiiif
       elsif mods.localcollection.include?('bcimage')
         prefix = "bcimage_"
         prefix + uri.split('/').last
+      elsif mods.title.include?('MS.1986.093')
+        "MS1986_093"
       else
         uri.split('/').last
       end
