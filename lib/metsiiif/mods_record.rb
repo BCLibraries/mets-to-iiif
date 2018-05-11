@@ -52,7 +52,7 @@ module Metsiiif
     end
 
     def identifier
-      @mods_record.xpath("mods:identifier[@TYPE='local']", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("mods:identifier[@type='local']", 'mods' => 'http://www.loc.gov/mods/v3').to_s
     end
   end
 end
