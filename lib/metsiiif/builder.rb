@@ -13,7 +13,11 @@ module Metsiiif
     def build(mets_path, descmd, structmap, sequence_div, component_div)
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
-      @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
+      if mets_file.mods.host_title.include?("Leary")
+        @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
+      else
+        @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
+      end
 
       structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
