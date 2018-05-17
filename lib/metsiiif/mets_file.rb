@@ -22,7 +22,7 @@ module Metsiiif
         prefix + uri.split('/').last
       elsif sequence_label.include?('MS.1986.093')
         "MS1986_093"
-      elsif mods.host_title.length == 0
+      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary")
         mods.identifier
       else
         uri.split('/').last

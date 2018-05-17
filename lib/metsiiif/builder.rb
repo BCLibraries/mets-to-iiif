@@ -13,11 +13,7 @@ module Metsiiif
     def build(mets_path, descmd, structmap, sequence_div, component_div)
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
-      if mets_file.mods.host_title.include?("Leary")
-        @sequence_base = "#{@iiif_host}/#{mets_file.sequence_label}"
-      else
-        @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
-      end
+      @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
 
       structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
@@ -52,7 +48,7 @@ module Metsiiif
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"},
-            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.nil?}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
+            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.length == 0}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
           ]
       }
       IIIF::Presentation::Manifest.new(seed)
