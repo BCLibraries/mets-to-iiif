@@ -64,7 +64,7 @@ module Metsiiif
     end
 
     def component_label
-      @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
+      @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/')
     end
   end
 end
