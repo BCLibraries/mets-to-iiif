@@ -22,6 +22,9 @@ module Metsiiif
         prefix + uri.split('/').last
       elsif sequence_label.include?('MS.1986.093')
         "MS1986_093"
+      elsif sequence_label.include?('MS.2012.004')
+        comp_label_arr = component_label.first.to_s.split('_')
+        comp_label_arr[0] + '_' + comp_label_arr[1] + '_' + comp_label_arr[2]
       else
         uri.split('/').last
       end
@@ -56,7 +59,7 @@ module Metsiiif
     end
 
     def component_label
-      @doc.xpath("#{@structmap}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/')
     end
   end
 end
