@@ -12,28 +12,28 @@ module Metsiiif
     end
 
     def title
-      @mods_record.xpath("#{@title}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("#{@title}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
     end
 
     def subtitle
       unless @subtitle.nil?
-        @mods_record.xpath("#{@subtitle}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+        @mods_record.xpath("#{@subtitle}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
       end
     end
 
     def host_title
-      @mods_record.xpath("#{@host_title}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("#{@host_title}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
     end
 
     def creator
       unless @creator.nil?
-        @mods_record.xpath("#{@creator}/mods:displayForm/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+        @mods_record.xpath("#{@creator}/mods:displayForm/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
       end
     end
 
     def owner
       if @owner.include?('mods')
-        @mods_record.xpath("#{@owner}/mods:namePart[2]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s + ", " + @mods_record.xpath("#{@owner}/mods:namePart[1]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+        @mods_record.xpath("#{@owner}/mods:namePart[2]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip + ", " + @mods_record.xpath("#{@owner}/mods:namePart[1]/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
       else
         @owner
       end
@@ -41,18 +41,18 @@ module Metsiiif
 
     def rights_information
       if @accesscondition.include?('mods')
-        @mods_record.xpath("#{@accesscondition}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+        @mods_record.xpath("#{@accesscondition}/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
       else
         @accesscondition
       end
     end
 
     def localcollection
-      @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
     end
 
     def identifier
-      @mods_record.xpath("mods:identifier[@type='local']/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s
+      @mods_record.xpath("mods:identifier[@type='local']/text()", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
     end
   end
 end

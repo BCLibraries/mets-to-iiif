@@ -30,7 +30,7 @@ module Metsiiif
     end
 
     def handle
-      @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
 
     def struct_map
@@ -59,11 +59,11 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
 
     def component_label
-      @doc.xpath("#{@structmap}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
   end
 end
