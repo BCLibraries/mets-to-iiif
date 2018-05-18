@@ -10,7 +10,7 @@ manifest_server:
   path: /iiif/manifests
 mets_fields:
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
-  structmap: '/mets:mets/mets:structMap'
+  structmap: '/mets:mets/mets:structMap[@TYPE="physical"]'
   sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images" or @TYPE="manuscript" or @TYPE="pages" or @TYPE="volume" or @TYPE="volumes"]'
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
   logical_div: 'mets:div[@TYPE="logical"]'
