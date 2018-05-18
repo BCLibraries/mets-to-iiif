@@ -36,7 +36,8 @@ module Metsiiif
     end
 
     def struct_map
-      structmap = @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}", 'mets' => 'http://www.loc.gov/METS/')
+      construct_component_label
+      structmap = @doc.xpath("#{@structmap}/#{@sequence_div}/#{@logical_div}/#{@component_div}", 'mets' => 'http://www.loc.gov/METS/')
       structmap.map { |component| component['LABEL'] }
     end
 
@@ -64,10 +65,10 @@ module Metsiiif
       @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
 
-    def component_label
+    def construct_component_label
       @doc.xpath("#{@structmap}/#{@sequence_div}/#{@logical_div}", 'mets' => 'http://www.loc.gov/METS/').each do |node|
         logical_div_label = node.xpath('@LABEL', 'mets' => 'http://www.loc.gov/METS/')
-        node.xpath('mets:div[@TYPE="page"]/@LABEL', 'mets' => 'http://www.loc.gov/METS/').each do |component_label|
+        node.xpath("#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').each do |component_label|
           new_label = "#{logical_div_label}: #{component_label}"
           component_label.content = new_label
         end
