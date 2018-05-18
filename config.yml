@@ -11,14 +11,15 @@ manifest_server:
 mets_fields:
   descmd: '/mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods'
   structmap: '/mets:mets/mets:structMap'
-  sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images" or @TYPE="manuscript" or @TYPE="pages" or @TYPE="volume"]'
+  sequence_div: 'mets:div[@TYPE="DAO" or @TYPE="item" or @TYPE="images" or @TYPE="manuscript" or @TYPE="pages" or @TYPE="volume" or @TYPE="volumes"]'
   component_div: 'mets:div[@TYPE="DAOcomponent" or @TYPE="page" or @TYPE="image"]'
+  logical_div: 'mets:div[@TYPE="logical"]'
 mods_fields:
-  title: 'mods:titleInfo[@usage="primary"]/mods:title'
-  subtitle: 'mods:titleInfo[@usage="primary"]/mods:subTitle'
+  title: 'mods:titleInfo/mods:title'
+  subtitle: 'mods:titleInfo/mods:subTitle'
   host_title: 'mods:relatedItem[@type="host"]/mods:titleInfo[@usage="primary"]/mods:title'
   # accesscondition, creator, and owner can be XPath or strings
   accesscondition: 'mods:accessCondition[@type="useAndReproduction"]'
-  creator: 'mods:name[@authority="naf" and @type="personal"]'
+  creator: 
   owner: 'mods:name[@authority="naf" and @type="corporate"]'
 image_filetype: jp2

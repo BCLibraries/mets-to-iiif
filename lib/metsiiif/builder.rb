@@ -10,8 +10,8 @@ module Metsiiif
     end
 
     # @param mets_path [String] the METS file to convert
-    def build(mets_path, descmd, structmap, sequence_div, component_div)
-      mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
+    def build(mets_path, descmd, structmap, sequence_div, component_div, logical_div)
+      mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div, logical_div)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
 

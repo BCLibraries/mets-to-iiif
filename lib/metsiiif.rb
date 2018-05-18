@@ -17,11 +17,12 @@ module Metsiiif
     structmap = cnf['mets_fields']['structmap']
     sequence_div = cnf['mets_fields']['sequence_div']
     component_div = cnf['mets_fields']['component_div']
+    logical_div = cnf['mets_fields']['logical_div']
 
     mets_path = ARGV[0]
 
     @builder = Metsiiif::Builder.new(iiif_host, manifest_host, image_filetype)
-    manifest = @builder.build(mets_path, descmd, structmap, sequence_div, component_div)
+    manifest = @builder.build(mets_path, descmd, structmap, sequence_div, component_div, logical_div)
 
     puts manifest
   end

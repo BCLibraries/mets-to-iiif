@@ -4,12 +4,13 @@ require 'metsiiif/mods_record'
 
 module Metsiiif
   class MetsFile
-    def initialize(mets_path, descmd, structmap, sequence_div, component_div)
+    def initialize(mets_path, descmd, structmap, sequence_div, component_div, logical_div)
       @doc = File.open(mets_path) { |f| Nokogiri::XML(f) }
       @descmd = descmd
       @structmap = structmap
       @sequence_div = sequence_div
       @component_div = component_div
+      @logical_div = logical_div
     end
 
     def obj_id
@@ -64,7 +65,13 @@ module Metsiiif
     end
 
     def component_label
-      @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/')
+      @doc.xpath("#{@structmap}/#{@sequence_div}/#{@logical_div}", 'mets' => 'http://www.loc.gov/METS/').each do |node|
+        logical_div_label = node.xpath('@LABEL', 'mets' => 'http://www.loc.gov/METS/')
+        node.xpath('mets:div[@TYPE="page"]/@LABEL', 'mets' => 'http://www.loc.gov/METS/').each do |component_label|
+          new_label = "#{logical_div_label}: #{component_label}"
+          component_label.content = new_label
+        end
+      end
     end
   end
 end
