@@ -40,7 +40,7 @@ module Metsiiif
     end
 
     def file_sec
-      filesec = @doc.xpath("/mets:mets/mets:fileSec/mets:fileGrp[@USE='archive image']/mets:file/mets:FLocat", 'mets' => 'http://www.loc.gov/METS/', 'xlink' => 'http://www.w3.org/1999/xlink')
+      filesec = @doc.xpath("/mets:mets/mets:fileSec/mets:fileGrp[@USE='archive image' or @USE='archive']/mets:file/mets:FLocat", 'mets' => 'http://www.loc.gov/METS/', 'xlink' => 'http://www.w3.org/1999/xlink')
       filesec.map { |flocat| flocat['xlink:href'].split('/').last.gsub('.tif', '') }
     end
 

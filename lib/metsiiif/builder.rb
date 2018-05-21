@@ -14,7 +14,7 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
-
+      
       structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
       sequence = IIIF::Presentation::Sequence.new
