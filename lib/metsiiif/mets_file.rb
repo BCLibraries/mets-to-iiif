@@ -20,10 +20,7 @@ module Metsiiif
       elsif mods.localcollection.include?('bcimage')
         prefix = "bcimage_"
         prefix + uri.split('/').last
-      elsif sequence_label.include?('MS.1986.093')
-        "MS1986_093"
-      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || 
-            sequence_label.include?('MS.1986.041') || mods.identifier.include?('brooker')
+      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || mods.identifier.include?('brooker')
         mods.identifier
       else
         uri.split('/').last
@@ -41,7 +38,7 @@ module Metsiiif
 
     def file_sec
       filesec = @doc.xpath("/mets:mets/mets:fileSec/mets:fileGrp[@USE='archive image' or @USE='archive']/mets:file/mets:FLocat", 'mets' => 'http://www.loc.gov/METS/', 'xlink' => 'http://www.w3.org/1999/xlink')
-      filesec.map { |flocat| flocat['xlink:href'].split('/').last.gsub('.tif', '') }
+      filesec.map { |flocat| flocat['xlink:href'].split('/').last.chomp('.tif') }
     end
 
     # @return [Metsiiif::ModsRecord]
