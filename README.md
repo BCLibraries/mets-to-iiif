@@ -16,11 +16,15 @@ To use the command line tool you will need to install locally. Clone or download
 
 To run on the command line:
 
-    $ metsiiif /path/to/mets/file/here > manifest.json
+    $ metsiiif /path/to/mets.xml > manifest.json
 
 Or use a 'for' loop to generate several manifests:
 
     $ for file in /path/to/mets/*.xml; do metsiiif $file > `basename $file .xml`.json; done
+
+The tool can also be run using a custom config file:
+
+    $ metsiiif -c /path/to/config.yml /path/to/mets.xml > manifest.json
 
 ## Development
 
