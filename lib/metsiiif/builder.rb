@@ -18,10 +18,15 @@ module Metsiiif
       structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = structmap_filesec.map.with_index { |comp, i| image_annotation_from_id("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
-
       range = IIIF::Presentation::Range.new
-      range.ranges = structmap_filesec.map.with_index { |comp, i| build_range("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
+
+      if mets_file.struct_map.include?('MS') || mets_file.struct_map.include?('BC')
+        sequence.canvases = mets_file.struct_map.map.with_index { |comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i) }
+        range.ranges = mets_file.struct_map.map.with_index { |comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i) }
+      else
+        sequence.canvases = structmap_filesec.map.with_index { |comp, i| image_annotation_from_id("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
+        range.ranges = structmap_filesec.map.with_index { |comp, i| build_range("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
+      end
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
