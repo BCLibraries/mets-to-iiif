@@ -14,7 +14,7 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div, logical_div)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
-
+      
       structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
       sequence = IIIF::Presentation::Sequence.new
@@ -36,9 +36,17 @@ module Metsiiif
 
     def build_manifest(mets_file)
       if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title.length == 0
-        mods_title = mets_file.mods.title
+        if mets_file.mods.subtitle.nil?
+          mods_title = mets_file.mods.title
+        else
+          mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}"
+        end
       else
-        mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
+        if mets_file.mods.subtitle.nil?
+          mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
+        else
+          mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}, #{mets_file.mods.host_title}"
+        end
       end
 
       seed = {
@@ -48,7 +56,7 @@ module Metsiiif
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"},
-            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.length == 0}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
+            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}, #{mets_file.sequence_label + ", " unless mets_file.mods.identifier.include?('brooker')}#{mets_file.mods.owner}, #{mets_file.handle}."}
           ]
       }
       IIIF::Presentation::Manifest.new(seed)
