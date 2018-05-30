@@ -21,8 +21,6 @@ module Metsiiif
       elsif mods.localcollection.include?('bcimage')
         prefix = "bcimage_"
         prefix + uri.split('/').last
-      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || 
-        sequence_label.include?('MS.1986.041') || sequence_label.include?('MS.1986.054')
       elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || mods.identifier.include?('brooker')
         mods.identifier
       else
