@@ -20,7 +20,7 @@ module Metsiiif
       sequence = IIIF::Presentation::Sequence.new
       range = IIIF::Presentation::Range.new
 
-      if mets_file.struct_map.include?('MS') || mets_file.struct_map.include?('BC')
+      if mets_file.struct_map.any? { |label| label.include?('MS') || label.include?('BC') }
         sequence.canvases = mets_file.struct_map.map.with_index { |comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i) }
         range.ranges = mets_file.struct_map.map.with_index { |comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i) }
       else
@@ -61,7 +61,7 @@ module Metsiiif
           'attribution' => "#{mets_file.mods.rights_information}",
           'metadata' => [
             {"handle": "#{mets_file.handle}"},
-            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.length == 0}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
+            {"label": "Preferred Citation", "value": "#{mets_file.mods.creator + ", " unless mets_file.mods.creator.nil?}#{mods_title}#{": " + mets_file.mods.subtitle unless mets_file.mods.subtitle.nil?}, #{mets_file.sequence_label}, #{mets_file.mods.owner}, #{mets_file.handle}."}
           ]
       }
       IIIF::Presentation::Manifest.new(seed)
