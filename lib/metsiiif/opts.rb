@@ -14,7 +14,7 @@ module Metsiiif
       @options.verbose = false
 
       opt_parser = OptionParser.new do |parser|
-        parser.banner = "Usage: metsiiif [options] /path/to/manifest"
+        parser.banner = "Usage: metsiiif [options] /path/to/mets"
 
         parser.on("-c", "--config PATH", String, "Set config file") do |path|
           @options.config_file = path

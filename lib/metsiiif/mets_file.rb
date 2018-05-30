@@ -5,7 +5,7 @@ require 'metsiiif/mods_record'
 module Metsiiif
   class MetsFile
     def initialize(mets_path, descmd, structmap, sequence_div, component_div)
-      @doc = File.open(mets_path) {|f| Nokogiri::XML(f)}
+      @doc = File.open(mets_path) { |f| Nokogiri::XML(f) }
       @descmd = descmd
       @structmap = structmap
       @sequence_div = sequence_div
@@ -20,23 +20,25 @@ module Metsiiif
       elsif mods.localcollection.include?('bcimage')
         prefix = "bcimage_"
         prefix + uri.split('/').last
-      elsif sequence_label.include?('MS.1986.093')
-        "MS1986_093"
-      elsif sequence_label.include?('MS.2012.004')
-        comp_label_arr = component_label.first.to_s.split('_')
-        comp_label_arr[0] + '_' + comp_label_arr[1] + '_' + comp_label_arr[2]
+      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || mods.identifier.include?('brooker')
+        mods.identifier
       else
         uri.split('/').last
       end
     end
 
     def handle
-      @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("/mets:mets/@OBJID", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
 
     def struct_map
       structmap = @doc.xpath("#{@structmap}/#{@sequence_div}/#{@component_div}", 'mets' => 'http://www.loc.gov/METS/')
-      structmap.map {|component| component['LABEL']}
+      structmap.map { |component| component['LABEL'] }
+    end
+
+    def file_sec
+      filesec = @doc.xpath("/mets:mets/mets:fileSec/mets:fileGrp[@USE='archive image' or @USE='archive']/mets:file/mets:FLocat", 'mets' => 'http://www.loc.gov/METS/', 'xlink' => 'http://www.w3.org/1999/xlink')
+      filesec.map { |flocat| flocat['xlink:href'].split('/').last.chomp('.tif') }
     end
 
     # @return [Metsiiif::ModsRecord]
@@ -55,7 +57,7 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s
+      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
     end
 
     def component_label

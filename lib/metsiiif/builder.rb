@@ -14,12 +14,14 @@ module Metsiiif
       mets_file = Metsiiif::MetsFile.new(mets_path, descmd, structmap, sequence_div, component_div)
 
       @sequence_base = "#{@iiif_host}/#{mets_file.obj_id}"
+      
+      structmap_filesec = mets_file.struct_map.zip(mets_file.file_sec)
 
       sequence = IIIF::Presentation::Sequence.new
-      sequence.canvases = mets_file.struct_map.map.with_index {|comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i)}
+      sequence.canvases = structmap_filesec.map.with_index { |comp, i| image_annotation_from_id("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
 
       range = IIIF::Presentation::Range.new
-      range.ranges = mets_file.struct_map.map.with_index {|comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i)}
+      range.ranges = structmap_filesec.map.with_index { |comp, i| build_range("#{comp[1]}.#{@image_filetype}", "#{comp[0]}", i) }
 
       manifest = build_manifest(mets_file)
       manifest.sequences << sequence
@@ -34,9 +36,17 @@ module Metsiiif
 
     def build_manifest(mets_file)
       if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title.length == 0
-        mods_title = mets_file.mods.title
+        if mets_file.mods.subtitle.nil?
+          mods_title = mets_file.mods.title
+        else
+          mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}"
+        end
       else
-        mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
+        if mets_file.mods.subtitle.nil?
+          mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
+        else
+          mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}, #{mets_file.mods.host_title}"
+        end
       end
 
       seed = {
