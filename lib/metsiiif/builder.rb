@@ -20,7 +20,7 @@ module Metsiiif
       sequence = IIIF::Presentation::Sequence.new
       range = IIIF::Presentation::Range.new
 
-      if mets_file.struct_map.any? { |label| label.include?('MS') || label.include?('BC') }
+      if mets_file.struct_map.any? { |label| label.include?('MS') || label.include?('BC') } || mets_file.obj_id.include?("bcimage")
         sequence.canvases = mets_file.struct_map.map.with_index { |comp, i| image_annotation_from_id("#{comp}.#{@image_filetype}", "#{comp}", i) }
         range.ranges = mets_file.struct_map.map.with_index { |comp, i| build_range("#{comp}.#{@image_filetype}", "#{comp}", i) }
       else

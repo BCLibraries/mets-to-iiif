@@ -17,7 +17,7 @@ module Metsiiif
       if mods.host_title == 'Bobbie Hanvey Photographic Archives'
         prefix = "MS2001_039_"
         prefix + uri.split('/').last
-      elsif mods.localcollection.include?('bcimage')
+      elsif mods.localcollection.any? { |coll| coll.include?('bcimage') }
         prefix = "bcimage_"
         prefix + uri.split('/').last
       elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || mods.identifier.include?('brooker')

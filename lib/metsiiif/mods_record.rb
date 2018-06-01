@@ -48,7 +48,11 @@ module Metsiiif
     end
 
     def localcollection
-      @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').to_s.strip
+      if @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').empty?
+        @mods_record.xpath("mods:extension/localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').map { |node| node.text }
+      else
+        @mods_record.xpath("mods:extension/mods:localCollectionName", 'mods' => 'http://www.loc.gov/mods/v3').map { |node| node.text }
+      end
     end
 
     def identifier
