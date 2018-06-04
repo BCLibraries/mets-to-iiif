@@ -41,13 +41,13 @@ module Metsiiif
 
     def build_manifest(mets_file)
       if mets_file.mods.host_title == mets_file.mods.title || mets_file.mods.host_title.length == 0
-        if mets_file.mods.subtitle.length == 0 || mets_file.mods.subtitle.nil?
+        if mets_file.mods.subtitle.nil? || mets_file.mods.subtitle.length == 0
           mods_title = mets_file.mods.title
         else
           mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}"
         end
       else
-        if mets_file.mods.subtitle.length == 0 || mets_file.mods.subtitle.nil?
+        if mets_file.mods.subtitle.nil? || mets_file.mods.subtitle.length == 0
           mods_title = mets_file.mods.title + ', ' + mets_file.mods.host_title
         else
           mods_title = "#{mets_file.mods.title}: #{mets_file.mods.subtitle}, #{mets_file.mods.host_title}"
