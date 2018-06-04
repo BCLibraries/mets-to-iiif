@@ -57,7 +57,11 @@ module Metsiiif
     end
 
     def sequence_label
-      @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
+      if mods.localcollection.include?('bcimage')
+        'Boston College Photographs'
+      else
+        @doc.xpath("#{@structmap}/#{@sequence_div}/@LABEL", 'mets' => 'http://www.loc.gov/METS/').to_s.strip
+      end
     end
 
     def component_label
