@@ -98,7 +98,7 @@ module Metsiiif
     def build_range(image_file, label, order)
       separator = image_file.include?('_') ? '_' : '.'
       image_id = image_file.chomp('.jp2').chomp('.tif').chomp('.tiff').chomp('.jpg')
-      page_id = image_id.split(separator).last
+      page_id = image_id.split(separator)[-2] + '_' + image_id.split(separator)[-1]
 
       range_id = "#{@sequence_base}/range/r-#{order}"
       canvas_id = "#{@sequence_base}/canvas/#{page_id}"
