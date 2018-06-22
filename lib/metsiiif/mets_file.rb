@@ -20,7 +20,7 @@ module Metsiiif
       elsif mods.localcollection.any? { |coll| coll.include?('bcimage') }
         prefix = "bcimage_"
         prefix + uri.split('/').last
-      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary")
+      elsif mods.host_title.length == 0 || mods.host_title.include?("Leary") || mods.host_title.include?("Hayward") || mods.host_title.include?("Roche")
         mods.identifier
       else
         uri.split('/').last
